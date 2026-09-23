@@ -8,6 +8,8 @@ import "./led-solutions-sections.css";
 import "./led-expertise.css";
 import "./led-assurance.css";
 import "./led-typography.css";
+import "./led-faq.css";
+import "./led-closing.css";
 
 export default function LedDisplayLayout({ children }) {
   return children;

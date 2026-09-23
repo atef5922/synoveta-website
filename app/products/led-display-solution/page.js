@@ -10,6 +10,8 @@ import LedProjectBanner from "./LedProjectBanner";
 import { LedCompleteSolutions, LedIndustrySolutions } from "./LedSolutionsSections";
 import { LedTechnology, LedProcess } from "./LedTechnologyProcess";
 import LedQualityAssurance from "./LedQualityAssurance";
+import LedFaq from "./LedFaq";
+import LedClosingCta from "./LedClosingCta";
 
 export const metadata = {
   title: "LED Display Series | Synoveta",
@@ -57,5 +59,5 @@ export default function LedDisplayPage() {
         </div>
       </article>
     </div>
-  </div></section><LedTechnologyComparison/><LedIndustrySolutions/><LedTechnology/><LedCompleteSolutions/><LedProcess/><LedQualityAssurance/><LedProjectBanner/></main><Footer/></div>;
+  </div></section><LedTechnologyComparison/><LedIndustrySolutions/><LedTechnology/><LedCompleteSolutions/><LedProcess/><LedQualityAssurance/><LedProjectBanner/><LedFaq/><LedClosingCta/></main><Footer/></div>;
 }
