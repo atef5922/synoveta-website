@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/products/layout,_N_T_/products/access-control-turnstile/layout,_N_T_/products/access-control-turnstile/boonedam/layout,_N_T_/products/access-control-turnstile/boonedam/[subcategory]/layout,_N_T_/products/access-control-turnstile/boonedam/[subcategory]/[productSlug]/layout,_N_T_/products/access-control-turnstile/boonedam/[subcategory]/[productSlug]/page,_N_T_/products/access-control-turnstile/boonedam/tripod-turnstiles/trilock-900/"
+  }
+}

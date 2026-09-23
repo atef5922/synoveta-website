@@ -1,0 +1,11 @@
+const fs = require('fs');
+const path = 'app/products/led-display-solution/page.js';
+let source = fs.readFileSync(path,'utf8');
+source = source.replace('export const metadata', 'import LedDisplayHero from "./LedDisplayHero";\n\nexport const metadata');
+source = source.replace('<main className="product-page"><div className="container">','<main><LedDisplayHero/><section className="product-page led-series-section" id="led-series" aria-labelledby="led-series-title"><div className="container">');
+source = source.replace('<p className="eyebrow">Synoveta LED display</p><h1>LED Display Series</h1>','<p className="eyebrow">Find your display</p><h2 id="led-series-title">LED Display Series</h2>');
+source = source.replace('fill priority sizes=', 'fill sizes=');
+source = source.replace('</div></main>', '</div></section></main>');
+fs.writeFileSync(path, source);
+const layout = 'app/products/led-display-solution/layout.js';
+fs.writeFileSync(layout, fs.readFileSync(layout,'utf8').replace('import "./led-display.css";', 'import "./led-display.css";\nimport "./led-hero.css";'));

@@ -1,0 +1,53 @@
+.led-platforms{padding:48px 0 64px;scroll-margin-top:24px;background:linear-gradient(115deg,#fff,#f8fafc 55%,#fff)}
+.led-platforms-heading{text-align:center;margin-bottom:28px}
+.led-platforms-heading>p{margin:0 0 10px;color:#536b8c;font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase}
+.led-platforms-heading h2{margin:0;color:#0a1019;font:700 clamp(28px,3.1vw,40px)/1.15 var(--font-inter),Arial,sans-serif;letter-spacing:-1.4px}
+.led-platforms-heading>div{margin-top:10px;color:#4d6383;font-size:15px;line-height:1.6}
+.led-platform-stack{display:grid;gap:16px}
+.led-platform{position:relative;isolation:isolate;overflow:hidden;border-radius:7px}
+.led-platform-svl{min-height:364px;background:#091823;color:#fff;display:flex;align-items:center}
+.led-platform-svl>img{z-index:-2;object-fit:cover;object-position:center}
+.led-platform-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(3,12,18,.58),rgba(3,12,18,.25) 44%,transparent 65%)}
+.led-platform-copy{position:relative;padding:32px 26px 22px;min-width:0}
+.led-platform-svl .led-platform-copy{width:51%;max-width:610px}
+.led-platform-kicker{display:flex;align-items:center;gap:13px;margin:0 0 15px;font-size:10px;font-weight:600;line-height:1.3;letter-spacing:2.6px;text-transform:uppercase}
+.led-platform-kicker:before{content:"";width:30px;height:2px;background:#257cf7;flex:none}
+.led-platform h3{margin:0 0 13px;font:600 clamp(25px,2.35vw,32px)/1.15 var(--font-inter),Arial,sans-serif;letter-spacing:-.85px}
+.led-platform-description{margin:0;max-width:490px;font-size:14px;line-height:1.5;letter-spacing:.05px;color:#d3dce4}
+.led-platform-features{display:flex;align-items:center;gap:22px;padding:0;margin:20px 0;list-style:none}
+.led-platform-features li{display:flex;align-items:center;gap:9px;font-size:11px;line-height:1.4;white-space:nowrap}
+.led-platform-features svg{width:22px;height:22px;flex:none;stroke-width:1.5}
+.led-platform-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:42px;padding:0 22px;border-radius:4px;background:#0656e7;color:#fff;font-size:12px;font-weight:500;box-shadow:0 4px 10px #0052db18;transition:background .2s,box-shadow .2s}
+.led-platform-button svg{width:16px;height:16px;transition:transform .2s}
+.led-platform-button:hover{background:#0046c8;box-shadow:0 5px 15px #0052db33}
+.led-platform-button:hover svg{transform:translateX(3px)}
+.led-platform-button:focus-visible{outline:3px solid #76b7ff;outline-offset:4px}
+.led-platform-tags{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:16px 0 0;padding:13px 0 0;border-top:1px solid #ffffff26}
+.led-platform-tags li{padding:5px 16px;border:1px solid #ffffff0a;border-radius:30px;background:#ffffff0d;color:#e0e6ec;font-size:10px;line-height:1.2}
+.led-platform-motto{position:absolute;right:24px;top:30px;padding-left:13px;border-left:1px solid #38516c55;color:#263e59;text-transform:uppercase;font-size:9px;line-height:1.8;font-weight:600;letter-spacing:2px}
+.led-platform-svlc{display:grid;grid-template-columns:1.03fr .97fr;min-height:328px;background:linear-gradient(115deg,#f4f7fa,#edf2f6);color:#0c1930}
+.led-platform-room{position:relative;min-height:328px}
+.led-platform-room img{object-fit:cover;object-position:center}
+.led-platform-svlc .led-platform-copy{align-self:center;padding:30px 26px 20px 30px}
+.led-platform-svlc .led-platform-kicker{color:#597398;margin-bottom:13px}
+.led-platform-svlc h3{font-size:clamp(25px,2.25vw,31px)}
+.led-platform-svlc .led-platform-description{font-size:13px;color:#576c88;line-height:1.5}
+.led-platform-svlc .led-platform-features{gap:18px;margin:17px 0;color:#405878}
+.led-platform-svlc .led-platform-features li{gap:8px;font-size:10px}
+.led-platform-svlc .led-platform-tags{border-color:#ccd7e2;margin-top:13px}
+.led-platform-svlc .led-platform-tags li{color:#46566c;background:#e0e6ec;border-color:transparent}
+@media(min-width:761px) and (max-width:1100px){.led-platform-features{flex-wrap:wrap;gap:12px 18px}.led-platform-svl .led-platform-copy{width:55%}.led-platform h3{font-size:26px}.led-platform-svlc .led-platform-copy{padding:25px 22px}.led-platform-svlc .led-platform-features{gap:12px}.led-platform-svlc h3{font-size:25px}}
+@media(max-width:760px){
+ .led-platforms{padding:36px 0 42px}.led-platforms-heading{margin-bottom:24px}.led-platforms-heading h2{font-size:28px;letter-spacing:-1px}.led-platforms-heading>div{font-size:13px;max-width:290px;margin:10px auto 0}
+ .led-platform-stack{gap:16px}.led-platform-svl{padding-top:180px}.led-platform-svl>img{object-position:70% top;object-fit:cover;height:260px}.led-platform-shade{background:linear-gradient(0deg,#091823 0%,#091823 55%,transparent 88%)}
+ .led-platform-svl .led-platform-copy{width:100%;max-width:none}.led-platform-copy,.led-platform-svlc .led-platform-copy{padding:25px 22px 22px}.led-platform h3,.led-platform-svlc h3{font-size:25px;letter-spacing:-.6px}.led-platform-description{font-size:13px}
+ .led-platform-features,.led-platform-svlc .led-platform-features{flex-wrap:wrap;gap:13px 18px;margin:18px 0}.led-platform-features li,.led-platform-svlc .led-platform-features li{font-size:10px}.led-platform-features svg{width:19px;height:19px}
+ .led-platform-tags{gap:7px}.led-platform-tags li{padding:5px 11px}.led-platform-motto{top:18px;right:15px;font-size:7px;letter-spacing:1.3px}
+ .led-platform-svlc{grid-template-columns:1fr}.led-platform-room{min-height:0;aspect-ratio:1.86}.led-platform-button{min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){.led-platform-button,.led-platform-button svg{transition:none}}
+/* Override the legacy global body-p size only inside the platform section. */
+.led-platforms .led-platforms-heading>p,.led-platforms .led-platform-kicker{font-size:10px!important}
+.led-platforms .led-platform-description{font-size:14px!important}
+.led-platforms .led-platform-svlc .led-platform-description{font-size:13px!important}
+@media(max-width:760px){.led-platforms .led-platform-description{font-size:13px!important}}

@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/products/led-display-solution/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/products/led-display-solution/layout.css",
+      "static/chunks/app/products/led-display-solution/layout.js"
+    ],
+    "/products/led-display-solution/[seriesSlug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/led-display-solution/[seriesSlug]/page.js"
+    ],
+    "/products/led-display-solution/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/products/led-display-solution/page.js"
+    ]
+  }
+}

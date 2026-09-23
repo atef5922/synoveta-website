@@ -1,0 +1,26 @@
+.led-project{position:relative;isolation:isolate;background:#061523;color:#fff;scroll-margin-top:24px}
+.led-project-background{object-fit:cover;object-position:65% center;z-index:-2}
+.led-project-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(3,15,27,.96),rgba(3,15,27,.85) 30%,rgba(3,15,27,.38) 58%,rgba(3,15,27,.05)),linear-gradient(0deg,rgba(3,15,27,.35),transparent 45%)}
+.led-project-inner{display:flex;align-items:center;min-height:clamp(360px,28vw,470px);padding-block:clamp(36px,3vw,54px)}
+.led-project-copy{width:53%;max-width:720px}
+.led-project-kicker{display:flex;align-items:center;gap:16px;margin:0 0 23px;font-size:clamp(10px,.75vw,13px)!important;font-weight:600;line-height:1.4;letter-spacing:2.7px;text-transform:uppercase;color:#c5d9ed}
+.led-project-kicker>span{width:32px;height:2px;flex:none;background:#64aaff}
+.led-project-copy h2{margin:0;font:600 clamp(36px,3.7vw,64px)/1.1 var(--font-inter),Arial,sans-serif;letter-spacing:-.04em;text-wrap:balance}
+.led-project-description{max-width:510px;margin:23px 0 0;color:#d3dfeb;font-size:clamp(14px,1.1vw,18px)!important;line-height:1.75}
+.led-project-link{display:inline-flex;align-items:center;justify-content:space-between;gap:32px;min-height:48px;margin-top:29px;padding:8px 0;border-bottom:1px solid #8dadcc80;color:#fff;font-size:clamp(14px,1vw,17px);font-weight:500;transition:color .2s,border-color .2s}
+.led-project-link svg{width:22px;height:22px;stroke-width:1.5;transition:transform .2s}
+.led-project-link:hover{color:#9dceff;border-color:#9dceff}
+.led-project-link:hover svg{transform:translate(2px,-2px)}
+.led-project-link:focus-visible{outline:2px solid #99ceff;outline-offset:7px;border-radius:2px}
+@media(max-width:1000px){.led-project-copy{width:62%}.led-project-inner{min-height:370px}.led-project-shade{background:linear-gradient(90deg,#03101df2,#03101dc9 40%,#03101d26)}}
+@media(max-width:600px){
+ .led-project-inner{min-height:420px;align-items:flex-end;padding-block:44px 32px}
+ .led-project-copy{width:100%;max-width:440px}
+ .led-project-background{object-position:68% center}
+ .led-project-shade{background:linear-gradient(0deg,#03101df5,#03101dd9 48%,#03101d55)}
+ .led-project-kicker{font-size:10px!important;margin-bottom:19px;letter-spacing:2px}
+ .led-project-copy h2{font-size:clamp(34px,8vw,45px)}
+ .led-project-description{font-size:14px!important;line-height:1.7;margin-top:18px;max-width:360px}
+ .led-project-link{margin-top:22px}
+}
+@media(prefers-reduced-motion:reduce){.led-project-link,.led-project-link svg{transition:none}}

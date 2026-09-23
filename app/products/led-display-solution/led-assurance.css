@@ -1,0 +1,29 @@
+.led-assurance{background:linear-gradient(115deg,#fbfdff,#f0f5fa);padding:clamp(30px,3.4vw,60px) 0;color:#102541}
+.led-assurance-grid{display:grid;grid-template-columns:minmax(0,1fr) 22%;gap:clamp(24px,3vw,54px);align-items:stretch}
+.led-assurance-main{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:center;min-width:0;padding:clamp(24px,2.5vw,44px) 0}
+.led-assurance-visual{position:absolute;inset:0 0 0 25%;z-index:-2;overflow:hidden}
+.led-assurance-visual img{object-fit:cover;object-position:65% center}
+.led-assurance-fade{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 0% 100%,#f9fcff 0%,#f9fcfff5 40%,#f9fcffb3 52%,#f9fcff00 67%),linear-gradient(90deg,#f9fcff 0%,#f9fcff 30%,#f9fcfff5 40%,#f9fcff99 53%,#f9fcff00 68%)}
+.led-assurance-content{width:65%;padding-right:20px}
+.led-assurance .led-assurance-kicker{display:flex;align-items:center;gap:12px;color:#0665ed;font-size:clamp(9px,.74vw,12px)!important;font-weight:700;line-height:1.4;letter-spacing:1.8px;text-transform:uppercase;margin:0 0 14px}
+.led-assurance-kicker:before{content:"";width:30px;height:2px;background:#0876ff;flex:none}
+.led-assurance h2{font:700 clamp(28px,2.75vw,48px)/1.1 var(--font-inter),Arial,sans-serif;letter-spacing:-1.3px;color:#102541;margin:0 0 17px;text-transform:none}
+.led-assurance .led-assurance-intro{font-size:clamp(13px,1.06vw,17px)!important;line-height:1.5;color:#50617a;max-width:470px;margin:0 0 22px}
+.led-assurance-button{display:inline-flex;align-items:center;justify-content:center;gap:17px;min-height:44px;padding:12px 18px;border-radius:4px;color:#fff;background:#075ff1;text-decoration:none;font-size:clamp(12px,.9vw,15px);font-weight:600}
+.led-assurance-button svg{width:17px;height:17px;flex:none}
+.led-assurance-button:hover{background:#0646be}
+.led-assurance-button:focus-visible{outline:3px solid #438afa;outline-offset:4px}
+.led-assurance-features{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:12px 0;margin:20px 0 0;width:78%;gap:0;background:none}
+.led-assurance-features li{padding:0 14px;border-left:1px solid #dbe4ee;min-width:0}
+.led-assurance-features li:first-child{padding-left:0;border:0}
+.led-assurance-features svg{width:35px;height:35px;stroke-width:1.8;color:#16375e;margin-bottom:12px}
+.led-assurance-features h3{font:700 clamp(11px,.85vw,15px)/1.35 var(--font-inter),Arial,sans-serif;margin:0 0 7px;color:#142c4b}
+.led-assurance-features p{font-size:clamp(11px,.79vw,13px)!important;line-height:1.5;margin:0;color:#617089}
+.led-assurance-previews{display:grid;grid-template-rows:repeat(3,1fr);gap:17px;min-width:0}
+.led-assurance-previews figure{margin:0;min-width:0;display:flex;flex-direction:column}
+.led-assurance-preview{flex:1;min-height:95px;background-image:url('/LED-Display/quality-testing-scenes.webp');background-size:100% 300%;background-repeat:no-repeat;border-radius:5px}
+.led-assurance-previews figcaption{font-size:clamp(11px,.86vw,15px);font-weight:600;line-height:1.35;margin-top:7px;color:#132a46}
+@media(min-width:1800px){.led-assurance-main{min-height:540px}}
+@media(max-width:1100px){.led-assurance-grid{grid-template-columns:minmax(0,1fr) 23%;gap:22px}.led-assurance-content{width:73%}.led-assurance h2{font-size:31px}.led-assurance-features{width:95%;background:none;padding:12px 0}.led-assurance-features li{padding-inline:10px}.led-assurance-features h3{font-size:11px}.led-assurance-features p{font-size:11px!important}.led-assurance-fade{background:radial-gradient(ellipse at 0% 100%,#f9fcff 0%,#f9fcfff5 43%,#f9fcffb3 57%,#f9fcff00 74%),linear-gradient(90deg,#f9fcff 10%,#f9fcffed 43%,#f9fcff30 75%)}.led-assurance-visual{left:18%}}
+@media(max-width:800px){.led-assurance-grid{grid-template-columns:1fr;gap:24px}.led-assurance-main{min-height:470px}.led-assurance-content{width:65%}.led-assurance-features{width:80%}.led-assurance-previews{grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:auto;gap:15px}.led-assurance-preview{aspect-ratio:2;min-height:0}.led-assurance-previews figcaption{font-size:12px}}
+@media(max-width:560px){.led-assurance-main{padding:0;min-height:0;display:grid;grid-template-columns:1fr}.led-assurance-content{width:100%;padding:0;grid-row:1}.led-assurance h2{font-size:32px}.led-assurance-visual{position:relative;inset:auto;z-index:0;grid-row:2;aspect-ratio:1.3;margin-top:24px;border-radius:5px}.led-assurance-visual img{object-position:70% center}.led-assurance-fade{display:none}.led-assurance-features{width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 16px;margin:24px 0 0;padding:0;background:none;grid-row:3}.led-assurance-features li{padding:0 0 0 14px}.led-assurance-features li:nth-child(odd){border:0;padding:0}.led-assurance-features h3{font-size:13px}.led-assurance-features p{font-size:12px!important}.led-assurance-features svg{width:30px;height:30px;margin-bottom:9px}.led-assurance-previews{grid-template-columns:1fr;gap:20px}.led-assurance-preview{aspect-ratio:3}.led-assurance-previews figcaption{font-size:13px}}

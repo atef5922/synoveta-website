@@ -1,0 +1,44 @@
+.header.header-compact{height:64px}
+.header-compact .quote-btn{padding:11px 18px;font-size:12px}
+.header-compact .desktop-nav>a.active:after,.header-compact .dropdown.active>.dropdown-trigger:after{bottom:8px;left:50%;right:auto;width:24px;height:2px;transform:translateX(-50%);border-radius:2px}
+.header-compact .dropdown.active>.dropdown-trigger:after{left:calc(50% - 9px)}
+.header-compact .dropdown:not(:hover):not(:focus-within)>.dropdown-menu{display:none}
+@media(min-width:761px) and (max-width:1050px){.header-compact .desktop-nav{gap:16px;font-size:12px}.header-compact .brand-image img{width:150px;height:auto}}
+@media(max-width:760px){.header.header-compact{height:58px}.header-compact .mobile-panel{top:58px}.header-compact .brand-image img{width:150px;height:auto}}
+.led-cinema{position:relative;isolation:isolate;background:#061322;color:#fff}
+.led-cinema:before{content:"";position:absolute;z-index:2;left:0;right:0;bottom:0;height:26px;pointer-events:none;background:linear-gradient(0deg,rgba(38,189,235,.28),rgba(22,144,195,.08) 38%,transparent)}
+.led-cinema:after{content:"";position:absolute;z-index:3;left:0;right:0;bottom:0;height:2px;pointer-events:none;background:linear-gradient(90deg,#7ed9f1,#dcfaff 35%,#dcfaff 65%,#7ed9f1);box-shadow:0 -2px 6px #76ddffb3,0 -5px 16px #20b9ed80,0 3px 10px #159bdc66}
+.led-cinema-video,.led-cinema-shade{position:absolute;inset:0;width:100%;height:100%}
+.led-cinema-video{display:block;object-fit:cover;object-position:center 40%}
+.led-cinema-shade{background:linear-gradient(90deg,rgba(3,14,29,.83),rgba(3,14,29,.55) 37%,rgba(3,14,29,.12) 76%),linear-gradient(0deg,rgba(3,14,29,.45),transparent 40%)}
+.led-cinema-inner{position:relative;display:flex;align-items:center;min-height:420px;height:calc(100svh - 64px);padding-top:40px;padding-bottom:40px}
+.led-cinema-copy{min-width:0;max-width:520px}
+.led-cinema-eyebrow{display:flex;align-items:center;gap:11px;margin:0 0 20px;font-size:11px;font-weight:600;letter-spacing:2.5px;color:#e1edff}
+.led-cinema-eyebrow>span{width:22px;height:2px;background:#5faaff}
+.led-cinema h1{margin:0;font-family:var(--font-inter),Arial,sans-serif;font-size:clamp(36px,3.5vw,48px);font-weight:600;line-height:1.12;letter-spacing:-1.9px}
+.led-cinema h1 em{font-style:normal;color:#92c6ff}
+.led-cinema-description{max-width:400px;margin:18px 0 0;font-size:14px;line-height:1.75;color:#c2cfdf}
+.led-cinema-actions{display:flex;align-items:center;gap:24px;margin-top:24px;flex-wrap:wrap}
+.led-cinema-primary,.led-cinema-secondary{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:44px;font-size:12px;font-weight:600;transition:background .2s,color .2s}
+.led-cinema-primary{padding:0 18px;border-radius:3px;background:#fff;color:#092442}
+.led-cinema-primary:hover{background:#dcecff}
+.led-cinema-secondary{color:#fff;border-bottom:1px solid #ffffff69}
+.led-cinema-secondary:hover{color:#a9d2ff;border-color:#a9d2ff}
+.led-cinema a:focus-visible,.led-cinema button:focus-visible{outline:2px solid #a9d2ff;outline-offset:6px}
+.led-series-section{scroll-margin-top:24px;padding-top:54px}
+.led-series-section .turnstile-heading h2{margin:0;font:700 40px/1.1 var(--font-display);text-transform:uppercase}
+@media(max-width:760px){
+  .led-cinema-inner{width:calc(100% - 40px);height:calc(100svh - 58px);min-height:460px;padding-top:70px;padding-bottom:54px;align-items:flex-end}
+  .led-cinema-video{object-position:55% center}
+  .led-cinema-shade{background:linear-gradient(0deg,rgba(3,14,29,.94),rgba(3,14,29,.68) 55%,rgba(3,14,29,.16))}
+  .led-cinema-eyebrow{font-size:9px;letter-spacing:2px;margin-bottom:16px}
+  .led-cinema h1{font-size:clamp(32px,8.6vw,48px);letter-spacing:-1.8px;line-height:1.12}
+  .led-cinema-description{font-size:13px;line-height:1.8;margin-top:16px;max-width:370px}
+  .led-desktop-break{display:none}
+  .led-cinema-actions{gap:12px 20px;margin-top:20px}
+  .led-cinema-primary,.led-cinema-secondary{font-size:11px;min-height:44px;gap:12px}
+  .led-cinema-primary{padding:0 18px}
+  .led-series-section{padding-top:36px}
+  .led-series-section .turnstile-heading h2{font-size:34px}
+}
+@media(prefers-reduced-motion:reduce){html:has(.led-cinema){scroll-behavior:auto}.led-cinema a{transition:none}}

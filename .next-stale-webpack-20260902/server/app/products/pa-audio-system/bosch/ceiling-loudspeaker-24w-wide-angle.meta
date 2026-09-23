@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/products/layout,_N_T_/products/pa-audio-system/layout,_N_T_/products/pa-audio-system/bosch/layout,_N_T_/products/pa-audio-system/bosch/[productSlug]/layout,_N_T_/products/pa-audio-system/bosch/[productSlug]/page,_N_T_/products/pa-audio-system/bosch/ceiling-loudspeaker-24w-wide-angle/"
+  }
+}

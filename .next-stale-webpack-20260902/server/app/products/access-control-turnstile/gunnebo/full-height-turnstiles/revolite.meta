@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/products/layout,_N_T_/products/access-control-turnstile/layout,_N_T_/products/access-control-turnstile/gunnebo/layout,_N_T_/products/access-control-turnstile/gunnebo/[subcategory]/layout,_N_T_/products/access-control-turnstile/gunnebo/[subcategory]/[productSlug]/layout,_N_T_/products/access-control-turnstile/gunnebo/[subcategory]/[productSlug]/page,_N_T_/products/access-control-turnstile/gunnebo/full-height-turnstiles/revolite/"
+  }
+}

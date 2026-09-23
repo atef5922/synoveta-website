@@ -1,0 +1,22 @@
+.led-comparison{padding:0 0 clamp(44px,5vw,90px);background:linear-gradient(110deg,#fff,#fafcfe 55%,#fff)}
+.led-comparison-heading{text-align:center;margin-bottom:clamp(20px,2vw,32px)}
+.led-comparison-heading>p{margin:0 0 12px;font-size:clamp(10px,.75vw,13px)!important;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#526c97}
+.led-comparison-heading h2{margin:0 0 8px;font:700 clamp(34px,3.5vw,56px)/1.1 var(--font-inter),Arial,sans-serif;letter-spacing:-1.8px;color:#080d15}
+.led-comparison-heading>div{font-size:clamp(14px,1.1vw,19px);line-height:1.5;color:#435c83}
+.led-comparison-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(18px,1.6vw,28px)}
+.led-comparison-card{position:relative;isolation:isolate;display:flex;overflow:hidden;border-radius:9px;min-width:0;min-height:clamp(440px,35vw,640px);background:linear-gradient(115deg,#f2f7fa,#edf3f8 70%,#f5f8fb)}
+.led-comparison-copy{position:relative;z-index:1;display:flex;flex-direction:column;width:58%;padding:clamp(25px,2.2vw,40px) 0 clamp(24px,1.8vw,34px) clamp(24px,2.2vw,40px)}
+.led-comparison-kicker{display:flex;align-items:center;gap:16px;margin:0 0 20px;font-size:clamp(9px,.68vw,12px)!important;font-weight:700;line-height:1.5;letter-spacing:2px;text-transform:uppercase;color:#3d5781;white-space:nowrap}
+.led-comparison-kicker:before{content:"";flex:none;width:34px;height:2px;background:#2466ff}
+.led-comparison-copy h3{margin:0 0 16px;font:700 clamp(24px,2.15vw,36px)/1.1 var(--font-inter),Arial,sans-serif;letter-spacing:-.9px;color:#101926}
+.led-comparison-description{margin:0;font-size:clamp(13px,.95vw,17px)!important;line-height:1.35;color:#4b6288;max-width:360px}
+.led-comparison-features{list-style:none;padding:0;margin:clamp(24px,2.4vw,40px) 0 24px;display:grid;gap:clamp(17px,1.7vw,28px)}
+.led-comparison-features li{display:flex;align-items:center;gap:clamp(15px,1.6vw,27px);font-size:clamp(12px,.92vw,16px);line-height:1.35;color:#354e78}
+.led-comparison-features svg{width:28px;height:28px;flex:none;stroke-width:1.6}
+.led-comparison-visual{position:absolute;z-index:0;right:0;bottom:0;width:42%;height:85%}
+.led-comparison-visual img{object-fit:contain;object-position:right bottom}
+.led-comparison-motto{position:absolute;top:30px;right:24px;border-left:1px solid #c5d3e2;padding-left:18px;color:#617899;font-size:clamp(8px,.57vw,10px);line-height:1.8;font-weight:600;letter-spacing:2px;text-transform:uppercase}
+.led-comparison-card .led-platform-button{position:relative;align-self:flex-start;margin-top:auto;min-height:46px;padding-inline:22px;font-size:clamp(12px,.9vw,16px);white-space:nowrap}
+@media(min-width:1001px) and (max-width:1250px){.led-comparison-copy{width:62%;padding-left:24px}.led-comparison-copy h3{font-size:25px}.led-comparison-kicker{font-size:9px!important;letter-spacing:1px;gap:10px}.led-comparison-motto{right:15px;padding-left:10px;letter-spacing:1px}.led-comparison-visual{width:37%}}
+@media(max-width:1000px){.led-comparison-grid{grid-template-columns:1fr}.led-comparison-card{min-height:440px}.led-comparison-copy{width:57%;padding:30px}.led-comparison-copy h3{font-size:clamp(25px,3.5vw,34px)}.led-comparison-visual{width:43%;height:87%}.led-comparison-description{font-size:14px!important}.led-comparison-features li{font-size:14px}.led-comparison-kicker{font-size:10px!important}}
+@media(max-width:600px){.led-comparison-heading>div{max-width:340px;margin:auto}.led-comparison-heading h2{font-size:36px}.led-comparison-card{min-height:0}.led-comparison-copy{width:100%;padding:26px 22px 30px}.led-comparison-copy h3{font-size:26px;max-width:280px}.led-comparison-description{max-width:100%;padding-right:0}.led-comparison-kicker{font-size:9px!important;letter-spacing:1.4px;gap:10px;margin-bottom:17px}.led-comparison-kicker:before{width:25px}.led-comparison-visual{width:43%;height:230px;bottom:0;opacity:1}.led-comparison-features{margin-top:28px;padding-right:36%;gap:19px;min-height:175px}.led-comparison-features li{gap:12px;font-size:12px}.led-comparison-features svg{width:24px;height:24px}.led-comparison-motto{display:none}.led-comparison-card .led-platform-button{padding-inline:16px;font-size:12px}.led-comparison-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f0f5f9,transparent 24%);pointer-events:none}}

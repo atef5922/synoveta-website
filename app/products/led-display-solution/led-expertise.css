@@ -1,0 +1,52 @@
+.led-expertise{--expert-blue:#0761f5;--expert-navy:#0b203b}
+.led-expertise h2{font:700 clamp(28px,2.65vw,46px)/1.12 var(--font-inter),Arial,sans-serif;letter-spacing:-1.2px;margin:0 0 16px;text-transform:none}
+.led-expertise .led-expertise-kicker{display:flex;align-items:center;gap:10px;font-size:clamp(9px,.68vw,12px)!important;line-height:1.4;font-weight:700;text-transform:uppercase;letter-spacing:2px;margin:0 0 14px;color:#80b8ff}
+.led-expertise-kicker:before{content:"";width:30px;height:2px;background:#2381ff;flex:none}
+.led-tech{background:radial-gradient(ellipse at 60% 30%,#152b3e,#071522 65%,#06111b);color:#fff;padding:clamp(30px,3vw,54px) 0 30px}
+.led-tech-main{display:grid;grid-template-columns:34% minmax(0,1fr);gap:30px;align-items:center}
+.led-tech-copy{padding-bottom:25px}
+.led-tech-copy>p:not(.led-expertise-kicker),.led-quality-copy>p:not(.led-expertise-kicker){font-size:clamp(13px,1.05vw,17px)!important;line-height:1.55;color:#c6d3e1;margin:0 0 24px;max-width:500px}
+.led-expertise-button{display:inline-flex;align-items:center;justify-content:center;gap:18px;padding:13px 20px;min-height:44px;border-radius:4px;background:var(--expert-blue);color:#fff;text-decoration:none;font-size:clamp(12px,.92vw,15px);font-weight:600;transition:background .2s}
+.led-expertise-button:hover{background:#0648bf}
+.led-expertise-button svg,.led-process-link svg{width:17px;height:17px;flex:none}
+.led-expertise a:focus-visible{outline:3px solid #80b8ff;outline-offset:5px}
+.led-tech-visual{min-width:0}
+.led-tech-labels{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;padding:0 15px;position:relative;z-index:1}
+.led-tech-labels h3{font:600 clamp(11px,.88vw,15px)/1.3 var(--font-inter),Arial,sans-serif;margin:0 0 4px;color:#fff}
+.led-tech-labels p{font-size:clamp(10px,.75vw,13px)!important;line-height:1.35;margin:0;color:#acbfd0;max-width:130px}
+.led-tech-labels span{display:block;width:1px;height:21px;background:linear-gradient(#4a7196,transparent);margin-top:7px}
+.led-tech-image{position:relative;aspect-ratio:2.3;margin-top:-3px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.led-tech-image img{object-fit:contain}
+.led-tech-features{padding:0;list-style:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px;margin:22px 0 0}
+.led-tech-features li{display:flex;align-items:center;gap:13px;padding:17px 14px;border:1px solid #ffffff16;border-radius:5px;background:#ffffff03;min-width:0}
+.led-tech-features svg{width:30px;height:30px;flex:none;stroke-width:1.4;color:#c8deef}
+.led-tech-features h3{font:600 clamp(11px,.88vw,15px)/1.3 var(--font-inter),Arial,sans-serif;margin:0 0 4px;color:#fff}
+.led-tech-features p{font-size:clamp(10px,.72vw,12px)!important;line-height:1.4;margin:0;color:#9fb4c8}
+.led-process{background:linear-gradient(110deg,#fff,#f4f8fc);color:var(--expert-navy);padding:clamp(34px,3.7vw,66px) 0}
+.led-process .led-expertise-kicker{color:#0864df}
+.led-process-heading{display:grid;grid-template-columns:1.5fr .85fr auto;gap:35px;align-items:center;margin-bottom:28px}
+.led-process-heading h2{font-size:clamp(28px,2.6vw,44px);margin-bottom:9px}
+.led-process-heading p:not(.led-expertise-kicker){font-size:clamp(12px,.95vw,16px)!important;line-height:1.5;color:#627187;margin:0;max-width:600px}
+.led-process-link{display:inline-flex;align-items:center;gap:12px;color:#0761dc;font-size:clamp(11px,.85vw,14px);font-weight:600;text-decoration:none;white-space:nowrap}
+.led-process-link:hover{text-decoration:underline;text-underline-offset:4px}
+.led-process-grid{list-style:none;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:clamp(16px,1.6vw,28px);padding:0;margin:0}
+.led-process-grid li{display:flex;flex-direction:column;min-width:0}
+.led-process-photo{position:relative;aspect-ratio:1.2;background-image:url('/LED-Display/project-process.webp');background-size:600% auto;background-repeat:no-repeat;border-radius:5px;overflow:hidden;margin-bottom:17px}
+.led-process-photo>span{position:absolute;top:0;left:0;padding:8px 9px;background:#0965ee;border-radius:4px 0 5px 0;color:#fff;font-size:13px;font-weight:700}
+.led-process-grid h3{font:700 clamp(11px,.94vw,16px)/1.35 var(--font-inter),Arial,sans-serif;margin:0 0 7px;color:#142b48}
+.led-process-grid p{font-size:clamp(11px,.8vw,14px)!important;line-height:1.5;color:#63748a;margin:0 0 13px}
+.led-process-arrow{width:18px;height:18px;color:#4b6b94;margin-top:auto;stroke-width:1.5}
+.led-quality{position:relative;isolation:isolate;background:#071725;color:#fff;overflow:hidden}
+.led-quality>img{object-fit:cover;object-position:center}
+.led-quality-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,17,29,.97),rgba(4,17,29,.84) 32%,rgba(4,17,29,.12) 58%,rgba(4,17,29,.65) 78%,rgba(4,17,29,.93))}
+.led-quality-inner{position:relative;display:grid;grid-template-columns:minmax(0,1.05fr) .7fr minmax(0,.8fr);gap:30px;align-items:center;padding-block:clamp(34px,3vw,56px);min-height:clamp(350px,29vw,500px)}
+.led-quality-copy{grid-column:1}
+.led-quality-copy h2{font-size:clamp(27px,2.5vw,43px)}
+.led-quality-list{grid-column:3;list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.led-quality-list li{display:flex;align-items:flex-start;gap:18px;padding:18px;background:#10283cc9;border:1px solid #c3dcf014;border-radius:5px;backdrop-filter:blur(8px)}
+.led-quality-list li>span{font-size:17px;color:#9cb9d3;font-weight:500}
+.led-quality-list h3{font:600 clamp(12px,.95vw,16px)/1.3 var(--font-inter),Arial,sans-serif;color:#fff;margin:0 0 6px}
+.led-quality-list p{font-size:clamp(11px,.78vw,13px)!important;line-height:1.5;color:#b6c8d9;margin:0}
+@media(max-width:1100px){.led-tech-main{grid-template-columns:36% minmax(0,1fr);gap:20px}.led-tech-features{gap:9px}.led-tech-features li{padding:13px 10px;gap:8px}.led-tech-features svg{width:24px;height:24px}.led-tech-labels{gap:10px;padding:0}.led-process-heading{grid-template-columns:1.2fr 1fr;gap:18px}.led-process-link{grid-column:2}.led-process-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 20px}.led-process-photo{aspect-ratio:1.5}.led-process-grid h3{font-size:15px}.led-process-grid p{font-size:13px!important}.led-quality-inner{grid-template-columns:1.1fr .25fr 1fr;gap:20px}.led-quality-list li{padding:14px;gap:12px}}
+@media(max-width:800px){.led-tech-main{grid-template-columns:1fr}.led-tech-copy{padding:0;max-width:540px}.led-tech-visual{margin-top:10px}.led-tech-image{aspect-ratio:2.3}.led-tech-features{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.led-tech-features li{padding:15px 12px}.led-tech-labels h3{font-size:12px}.led-tech-labels p{font-size:10px!important}.led-quality-inner{grid-template-columns:1fr 1fr;gap:28px;padding-block:40px}.led-quality-list{grid-column:2}.led-quality-shade{background:linear-gradient(90deg,#04111deb,#04111d9c)}.led-quality>img{object-position:58% center}.led-quality-copy h2{font-size:30px}.led-process-heading h2{font-size:32px}}
+@media(max-width:560px){.led-tech{padding:32px 0 26px}.led-expertise h2{font-size:30px}.led-tech-features{grid-template-columns:repeat(2,minmax(0,1fr))}.led-tech-features li:last-child{grid-column:1/-1}.led-tech-labels{gap:8px}.led-tech-labels h3{font-size:10px}.led-tech-labels p{font-size:9px!important}.led-tech-labels span{height:15px}.led-tech-image{margin-inline:-12px}.led-process-heading{grid-template-columns:1fr;gap:14px}.led-process-link{grid-column:auto}.led-process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 16px}.led-process-photo{aspect-ratio:1.15}.led-process-grid h3{font-size:13px}.led-process-grid p{font-size:12px!important}.led-quality-inner{grid-template-columns:1fr;gap:140px}.led-quality-copy{max-width:420px}.led-quality-list{grid-column:1;gap:8px}.led-quality-list li{padding:16px}.led-quality-list h3{font-size:14px}.led-quality-list p{font-size:12px!important}.led-quality>img{object-position:58% center}.led-quality-shade{background:linear-gradient(180deg,#04111df2,#04111d9c 35%,#04111d15 53%,#04111deb 78%)}.led-expertise-button{font-size:12px;padding-inline:17px}}

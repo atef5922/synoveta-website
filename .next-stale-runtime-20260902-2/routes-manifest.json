@@ -1,0 +1,247 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/products/access-control-turnstile/boonedam/[subcategory]",
+      "regex": "^/products/access\\-control\\-turnstile/boonedam/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPsubcategory": "nxtPsubcategory"
+      },
+      "namedRegex": "^/products/access\\-control\\-turnstile/boonedam/(?<nxtPsubcategory>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/access-control-turnstile/boonedam/[subcategory]/[productSlug]",
+      "regex": "^/products/access\\-control\\-turnstile/boonedam/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPsubcategory": "nxtPsubcategory",
+        "nxtPproductSlug": "nxtPproductSlug"
+      },
+      "namedRegex": "^/products/access\\-control\\-turnstile/boonedam/(?<nxtPsubcategory>[^/]+?)/(?<nxtPproductSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/access-control-turnstile/gunnebo/[subcategory]",
+      "regex": "^/products/access\\-control\\-turnstile/gunnebo/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPsubcategory": "nxtPsubcategory"
+      },
+      "namedRegex": "^/products/access\\-control\\-turnstile/gunnebo/(?<nxtPsubcategory>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/access-control-turnstile/gunnebo/[subcategory]/[productSlug]",
+      "regex": "^/products/access\\-control\\-turnstile/gunnebo/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPsubcategory": "nxtPsubcategory",
+        "nxtPproductSlug": "nxtPproductSlug"
+      },
+      "namedRegex": "^/products/access\\-control\\-turnstile/gunnebo/(?<nxtPsubcategory>[^/]+?)/(?<nxtPproductSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/conference-system/[productSlug]",
+      "regex": "^/products/conference\\-system/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPproductSlug": "nxtPproductSlug"
+      },
+      "namedRegex": "^/products/conference\\-system/(?<nxtPproductSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/led-display-solution/[seriesSlug]",
+      "regex": "^/products/led\\-display\\-solution/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPseriesSlug": "nxtPseriesSlug"
+      },
+      "namedRegex": "^/products/led\\-display\\-solution/(?<nxtPseriesSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/pa-audio-system/bosch/[productSlug]",
+      "regex": "^/products/pa\\-audio\\-system/bosch/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPproductSlug": "nxtPproductSlug"
+      },
+      "namedRegex": "^/products/pa\\-audio\\-system/bosch/(?<nxtPproductSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/products/[slug]",
+      "regex": "^/products/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/products/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/partners",
+      "regex": "^/partners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/partners(?:/)?$"
+    },
+    {
+      "page": "/products",
+      "regex": "^/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products(?:/)?$"
+    },
+    {
+      "page": "/products/access-control-turnstile",
+      "regex": "^/products/access\\-control\\-turnstile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/access\\-control\\-turnstile(?:/)?$"
+    },
+    {
+      "page": "/products/access-control-turnstile/boonedam",
+      "regex": "^/products/access\\-control\\-turnstile/boonedam(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/access\\-control\\-turnstile/boonedam(?:/)?$"
+    },
+    {
+      "page": "/products/access-control-turnstile/gunnebo",
+      "regex": "^/products/access\\-control\\-turnstile/gunnebo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/access\\-control\\-turnstile/gunnebo(?:/)?$"
+    },
+    {
+      "page": "/products/conference-system",
+      "regex": "^/products/conference\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/conference\\-system(?:/)?$"
+    },
+    {
+      "page": "/products/conference-system/bosch",
+      "regex": "^/products/conference\\-system/bosch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/conference\\-system/bosch(?:/)?$"
+    },
+    {
+      "page": "/products/conference-system/honeywell",
+      "regex": "^/products/conference\\-system/honeywell(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/conference\\-system/honeywell(?:/)?$"
+    },
+    {
+      "page": "/products/conference-system/toa",
+      "regex": "^/products/conference\\-system/toa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/conference\\-system/toa(?:/)?$"
+    },
+    {
+      "page": "/products/led-display-solution",
+      "regex": "^/products/led\\-display\\-solution(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/led\\-display\\-solution(?:/)?$"
+    },
+    {
+      "page": "/products/led-display-solution/daktronics",
+      "regex": "^/products/led\\-display\\-solution/daktronics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/led\\-display\\-solution/daktronics(?:/)?$"
+    },
+    {
+      "page": "/products/pa-audio-system",
+      "regex": "^/products/pa\\-audio\\-system(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/pa\\-audio\\-system(?:/)?$"
+    },
+    {
+      "page": "/products/pa-audio-system/bosch",
+      "regex": "^/products/pa\\-audio\\-system/bosch(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/pa\\-audio\\-system/bosch(?:/)?$"
+    },
+    {
+      "page": "/products/pa-audio-system/honeywell",
+      "regex": "^/products/pa\\-audio\\-system/honeywell(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/pa\\-audio\\-system/honeywell(?:/)?$"
+    },
+    {
+      "page": "/products/pa-audio-system/toa",
+      "regex": "^/products/pa\\-audio\\-system/toa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products/pa\\-audio\\-system/toa(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/solutions",
+      "regex": "^/solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
