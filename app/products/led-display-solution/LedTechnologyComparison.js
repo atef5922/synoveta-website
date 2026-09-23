@@ -5,28 +5,28 @@ import { ArrowRight, Grid3X3, Sun, Layers, Gem, Building2, Monitor } from "lucid
 const technologies = [
   {
     slug: "svl-series", name: "SVL", label: "SMD (SVL Series)",
-    title: <>Proven Versatility<br/>for Every Environment</>,
-    description: "SMD technology delivers exceptional flexibility, with a wide pixel-pitch range and reliable performance for both indoor and outdoor applications.",
+    title: <>Choose SMD<br/>for Greater Flexibility</>,
+    description: "Consider SVL when your project needs a choice of installation environments and viewing distances. Select the configuration around the scale of your space.",
     image: "/LED-Display/smd-comparison.webp",
     alt: "SMD LED display cabinet, front and rear views",
     motto: <>Flexible<br/>Reliable<br/>Worldwide</>,
     features: [
-      { Icon: Grid3X3, text: <>Wide pixel-pitch range<br/>(P1.25 – P10)</> },
-      { Icon: Sun, text: <>Indoor &amp; outdoor applications</> },
-      { Icon: Layers, text: <>Strong versatility<br/>for diverse projects</> },
+      { Icon: Grid3X3, text: <>Choose pitch around<br/>viewing distance</> },
+      { Icon: Sun, text: <>Match the model to<br/>indoor or outdoor use</> },
+      { Icon: Layers, text: <>Plan around screen size<br/>and placement</> },
     ],
   },
   {
     slug: "svlc-series", name: "SVLC", label: "Flip-Chip COB (SVLC Series)",
-    title: <>Ultra-Fine Clarity<br/>for Premium Spaces</>,
-    description: "Flip-Chip COB technology delivers superior close-view performance, ultra-fine pixel pitch and outstanding visual quality for premium indoor environments.",
+    title: <>Choose COB<br/>for Close-Up Detail</>,
+    description: "Consider SVLC for indoor spaces where people view the screen up close. Start with the smallest text and finest details your audience needs to see.",
     image: "/LED-Display/cob-comparison.webp",
     alt: "Flip-chip COB LED display cabinet, front and rear views",
     motto: <>Higher<br/>Definition<br/>Brighter<br/>Possibilities</>,
     features: [
-      { Icon: Gem, text: <>Ultra-fine pixel pitch<br/>(P1.25 – P1.86)</> },
-      { Icon: Building2, text: <>Premium indoor applications</> },
-      { Icon: Monitor, text: <>Superior close-view<br/>performance</> },
+      { Icon: Gem, text: <>Prioritise detail<br/>at close range</> },
+      { Icon: Building2, text: <>Designed for<br/>indoor spaces</> },
+      { Icon: Monitor, text: <>Consider text, diagrams<br/>and detailed content</> },
     ],
   },
 ];
@@ -38,7 +38,7 @@ export default function LedTechnologyComparison() {
         <header className="led-comparison-heading">
           <p>Technology comparison</p>
           <h2 id="led-comparison-title">SMD vs COB</h2>
-          <div>Two advanced technologies. Different strengths. A wider range of possibilities.</div>
+          <div>Choose around your viewing distance, content and installation environment.</div>
         </header>
         <div className="led-comparison-grid">
           {technologies.map(({ slug, name, label, title, description, image, alt, motto, features }) => (
@@ -50,7 +50,7 @@ export default function LedTechnologyComparison() {
                 <h3 id={`${slug}-comparison-title`}>{title}</h3>
                 <p className="led-comparison-description">{description}</p>
                 <ul className="led-comparison-features">{features.map(({ Icon, text }, index) => <li key={index}><Icon aria-hidden="true"/><span>{text}</span></li>)}</ul>
-                <Link className="led-platform-button" href={`/products/led-display-solution/${slug}/`}>Explore {name} Series <ArrowRight aria-hidden="true"/></Link>
+                <Link className="led-platform-button" href={`/products/led-display-solution/${slug}/`}>View {name} Specifications <ArrowRight aria-hidden="true"/></Link>
               </div>
             </article>
           ))}

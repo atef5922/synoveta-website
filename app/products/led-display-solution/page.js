@@ -31,7 +31,7 @@ export default function LedDisplayPage() {
         <div className="led-platform-copy">
           <p className="led-platform-kicker">SVL Series</p>
           <h3 id="svl-platform-title">Versatile SMD LED Platform</h3>
-          <p className="led-platform-description">A high-performance LED display series designed for both indoor and outdoor applications, offering a wide pixel pitch range and exceptional versatility for diverse environments.</p>
+          <p className="led-platform-description">Meet SVL, Synoveta’s modular SMD display platform. Explore the available pixel pitches and configurations for indoor and outdoor installations.</p>
           <ul className="led-platform-features">
             <li><Sun/><span>Indoor &amp; Outdoor</span></li>
             <li><Grid3X3/><span>P1.25 – P10 Pixel Pitch</span></li>
@@ -46,7 +46,7 @@ export default function LedDisplayPage() {
         <div className="led-platform-copy">
           <p className="led-platform-kicker">SVLC Series</p>
           <h3 id="svlc-platform-title">Fine-Pitch Flip-Chip COB</h3>
-          <p className="led-platform-description">Engineered for close-view applications, the SVLC series delivers exceptional visual performance with Flip-Chip COB technology, ideal for premium indoor environments.</p>
+          <p className="led-platform-description">Meet SVLC, Synoveta’s fine-pitch Flip-Chip COB platform. Discover its indoor display options, module format and detailed specifications.</p>
           <ul className="led-platform-features">
             <li><House/><span>Indoor Use Only</span></li>
             <li><Grid3X3/><span>P1.25 / P1.538 / P1.86</span></li>

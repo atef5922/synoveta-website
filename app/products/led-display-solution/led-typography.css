@@ -1,0 +1,124 @@
+/* Shared hierarchy for section headings and introductory copy. */
+.led-display-landing {
+  --led-section-title-size: clamp(30px, 2.3vw, 32px);
+  --led-section-copy-size: clamp(15px, 1.12vw, 16px);
+  --led-section-label-size: 11px;
+}
+
+.led-display-landing main {
+  font-family: var(--font-inter), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.led-display-landing main :is(h1, h2, h3, p, a, li, figcaption) {
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+.led-display-landing :is(
+  .led-platforms-heading, .led-comparison-heading, .led-industry-heading,
+  .led-tech-copy, .led-complete-copy, .led-process-heading, .led-assurance-content
+) h2 {
+  font-size: var(--led-section-title-size);
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -.025em;
+  text-wrap: balance;
+}
+
+.led-display-landing :is(
+  .led-platforms-heading > div, .led-comparison-heading > div,
+  .led-industry-intro, .led-complete-intro, .led-assurance-intro,
+  .led-project-description,
+  .led-tech-copy > p:not(.led-expertise-kicker),
+  .led-process-heading > p,
+  .led-process-heading > div > p:not(.led-expertise-kicker)
+) {
+  font-size: var(--led-section-copy-size) !important;
+  line-height: 1.6;
+  font-weight: 450;
+  letter-spacing: 0;
+}
+
+.led-display-landing :is(
+  .led-platforms .led-platforms-heading > p,
+  .led-comparison-heading > p, .led-solutions-kicker,
+  .led-expertise-kicker, .led-assurance-kicker, .led-project-kicker
+) {
+  font-size: var(--led-section-label-size) !important;
+  line-height: 1.5;
+  font-weight: 650;
+  letter-spacing: 1.6px;
+}
+
+/* Strengthen supporting text without enlarging the section headings. */
+.led-display-landing :is(
+  .led-platform-description, .led-comparison-description,
+  .led-service-list p, .led-industry-body p, .led-process-grid p,
+  .led-assurance-features p, .led-tech-features p
+) {
+  font-size: clamp(13px, 1vw, 15px) !important;
+  font-weight: 450;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.led-display-landing :is(
+  .led-platforms-heading > div, .led-comparison-heading > div,
+  .led-platform-svlc .led-platform-description, .led-comparison-description,
+  .led-industry-intro, .led-complete-intro, .led-service-list p,
+  .led-industry-body p, .led-process-grid p, .led-assurance-intro,
+  .led-assurance-features p,
+  .led-process-heading > p,
+  .led-process-heading > div > p:not(.led-expertise-kicker)
+) {
+  color: #465970;
+}
+
+.led-display-landing :is(
+  .led-service-list h3, .led-industry-body h3, .led-process-grid h3,
+  .led-assurance-features h3, .led-tech-features h3
+) {
+  font-size: clamp(13px, 1.05vw, 16px);
+  font-weight: 650;
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+
+.led-display-landing :is(
+  .led-platforms-heading h2, .led-comparison-heading h2,
+  .led-complete-copy h2, .led-industry-heading h2,
+  .led-process-heading h2, .led-assurance-content h2
+) {
+  color: #10243e;
+}
+
+.led-display-landing :is(
+  .led-tech-features p, .led-tech-labels p,
+  .led-tech-copy > p:not(.led-expertise-kicker),
+  .led-platform-svl .led-platform-description, .led-project-description
+) {
+  color: #d6e2ef;
+}
+
+.led-display-landing :is(
+  .led-platform-button, .led-solutions-button, .led-expertise-button,
+  .led-assurance-button, .led-process-link, .led-industry-all
+) {
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+@media (max-width: 1100px) {
+  .led-display-landing {
+    --led-section-title-size: 28px;
+    --led-section-copy-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .led-display-landing {
+    --led-section-title-size: clamp(25px, 6.5vw, 26px);
+    --led-section-copy-size: 14px;
+    --led-section-label-size: 10px;
+  }
+}

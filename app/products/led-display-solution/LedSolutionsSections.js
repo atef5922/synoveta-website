@@ -3,12 +3,12 @@ import Link from "next/link";
 import { ArrowRight, ClipboardCheck, PanelsTopLeft, Wrench, Settings, Headphones, BadgeCheck, Building2, ShoppingBag, CalendarDays, Monitor, MonitorCheck, GraduationCap } from "lucide-react";
 
 const services = [
-  [ClipboardCheck, "Expert Consultation", "The right display for your needs"],
-  [PanelsTopLeft, "Custom Design", "Designed around your space"],
-  [Wrench, "Installation Support", "Guidance for a seamless setup"],
-  [Settings, "System Configuration", "Tuned for your display system"],
-  [Headphones, "After-Sales Support", "Help beyond the installation"],
-  [BadgeCheck, "Maintenance & Service", "Care for lasting performance"],
+  [ClipboardCheck, "Confident Decisions", "Clear guidance on your display options"],
+  [PanelsTopLeft, "A Better Fit", "A display planned around your space"],
+  [Wrench, "Practical Integration", "Mounting and access considered early"],
+  [Settings, "Connected Systems", "Display and control planned together"],
+  [Headphones, "Expert Guidance", "Technical questions made clearer"],
+  [BadgeCheck, "Ongoing Care", "Help when your display needs attention"],
 ];
 
 const industries = [
@@ -27,7 +27,7 @@ export function LedCompleteSolutions() {
         <div className="led-complete-copy">
           <p className="led-solutions-kicker">More than displays</p>
           <h2 id="led-complete-title">Complete LED Solutions<br/>From Concept to Completion</h2>
-          <p className="led-complete-intro">Bring your vision to life with Synoveta. From display selection and design to setup and ongoing support, we help you create a visual solution that fits your space.</p>
+          <p className="led-complete-intro">Get more than a screen. Synoveta brings product guidance, integration planning and technical support together, helping you make confident choices for your project.</p>
           <ul className="led-service-list">{services.map(([Icon, title, copy]) => <li key={title}><span className="led-service-icon"><Icon aria-hidden="true" /></span><div><h3>{title}</h3><p>{copy}</p></div></li>)}</ul>
           <Link href="/solutions/" className="led-solutions-button">Explore Our Solutions <ArrowRight aria-hidden="true" /></Link>
         </div>
