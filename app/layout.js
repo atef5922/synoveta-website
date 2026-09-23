@@ -4,6 +4,7 @@ import "./hero-fix.css";
 import "./bosch.css";
 import "./about/about.css";
 import "./products/conference-system/conference-system.css";
+import "./components/header.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const rajdhani = Rajdhani({ subsets: ["latin"], weight: ["600", "700"], variable: "--font-display" });

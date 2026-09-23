@@ -1,0 +1,29 @@
+.header.header-compact{height:64px}
+.header.header-compact .nav-wrap{width:min(1760px,calc(100% - clamp(20px,5vw,100px)*2));gap:24px}
+.header.header-compact .brand{flex:none}
+.header.header-compact .brand-image img{width:clamp(150px,12vw,200px);height:auto}
+.header.header-compact .desktop-nav{gap:clamp(18px,2.3vw,44px);font-size:clamp(13px,.9vw,16px)}
+.header.header-compact .quote-btn{flex:none;white-space:nowrap;padding:11px 18px;font-size:12px}
+.header.header-compact .desktop-nav>a.active:after,.header.header-compact .dropdown.active>.dropdown-trigger:after{bottom:8px;left:50%;right:auto;width:24px;height:2px;transform:translateX(-50%);border-radius:2px}
+.header.header-compact .dropdown.active>.dropdown-trigger:after{left:calc(50% - 9px)}
+.header.header-compact .dropdown:not(:hover):not(:focus-within)>.dropdown-menu{display:none}
+.header.header-compact .mobile-menu:not([open])>.mobile-panel{display:none}
+@media(max-width:1100px){
+  .header.header-compact .desktop-nav,.header.header-compact .quote-btn{display:none}
+  .header.header-compact .mobile-menu{display:block}
+  .header.header-compact .mobile-menu summary{display:flex;list-style:none;cursor:pointer}
+  .header.header-compact .mobile-menu summary::-webkit-details-marker{display:none}
+  .header.header-compact .mobile-menu summary svg{width:27px;height:27px}
+  .header.header-compact .menu-close{display:none}
+  .header.header-compact .mobile-menu[open] .menu-open{display:none}
+  .header.header-compact .mobile-menu[open] .menu-close{display:block}
+  .header.header-compact .mobile-panel{position:absolute;top:100%;left:0;right:0;max-height:calc(100svh - 64px);overflow-y:auto;display:flex;flex-direction:column;gap:14px;padding:24px;background:#fff;box-shadow:0 20px 30px #001b3526}
+  .header.header-compact .mobile-panel a{white-space:normal;overflow-wrap:anywhere}
+}
+@media(max-width:760px){
+  .header.header-compact{height:58px}
+  .header.header-compact .nav-wrap{width:calc(100% - 40px)}
+  .header.header-compact .brand-image img{width:150px}
+  .header.header-compact .mobile-panel{max-height:calc(100svh - 58px)}
+}
+@media(max-width:380px){.header.header-compact .nav-wrap{width:calc(100% - 32px)}}

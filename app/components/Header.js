@@ -6,7 +6,7 @@ import { brandHref, brandName, categoryBrands, subcategoryHref } from "../produc
 
 const categoryHref = (slug) => `/products/${slug}`;
 
-export default function Header({ activePage = "home", compact = false }) {
+export default function Header({ activePage = "home", compact = true }) {
   return (
     <>
       <header className={`header${compact ? " header-compact" : ""}`}>
