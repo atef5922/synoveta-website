@@ -1,10 +1,10 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { generatedAssetUrls, resolveExportAsset } from './export-assets.mjs';
 
 const exportRoot = join(process.cwd(), "out");
 const errors = [];
 const { readdirSync, statSync } = await import('node:fs');
-const { resolve, sep } = await import('node:path');
 
 const walk = (directory) => readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
   const path = join(directory, entry.name);
@@ -29,10 +29,7 @@ if (existsSync(exportRoot)) {
   const documents = walk(exportRoot).filter((file) => file.endsWith('.html'));
   for (const document of documents) {
     const html = readFileSync(document, 'utf8');
-    const assetUrls = new Set(
-      [...html.matchAll(/(?:src|href)=["'](\/_next\/static\/[^"'?]+)(?:\?[^"']*)?["']/g)]
-        .map((match) => decodeURIComponent(match[1]))
-    );
+    const assetUrls = generatedAssetUrls(html);
 
     if (document !== join(exportRoot, '404.html') &&
         ![...assetUrls].some((asset) => asset.endsWith('.css'))) {
@@ -40,8 +37,8 @@ if (existsSync(exportRoot)) {
     }
 
     for (const assetUrl of assetUrls) {
-      const asset = resolve(exportRoot, assetUrl.replace(/^\/+/, ''));
-      if (!asset.startsWith(resolve(exportRoot) + sep)) {
+      const asset = resolveExportAsset(exportRoot, assetUrl);
+      if (!asset) {
         errors.push(`Unsafe generated asset path in ${document}: ${assetUrl}`);
       } else if (!existsSync(asset) || statSync(asset).size === 0) {
         errors.push(`Missing or empty generated asset in ${document}: ${assetUrl}`);
