@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, AudioLines, BadgeCheck, Gem, Camera, Check, ChevronRight, CirclePlay, Cpu, Globe2, Mic2, Monitor, Network, Radio, Settings2, ShieldCheck, Signal, Users, Wifi } from "lucide-react";
+import { ArrowRight, AudioLines, BadgeCheck, Gem, Camera, Check, ChevronRight, Cpu, Globe2, Mic2, Monitor, Network, Radio, Settings2, ShieldCheck, Signal, Users, Wifi } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./conference-landing.css";
 import "./conference-opening.css";
-import { ConferenceVideo, ConferenceProductRail } from "./ConferenceControls";
+import "./conference-hero.css";
+import ConferenceHero from "./ConferenceHero";
+import { ConferenceProductRail } from "./ConferenceControls";
 
 const base = "/Confeernce system";
 const wired = `${base}/digital-wired- conference-system`;
@@ -55,7 +57,7 @@ export const metadata = { title: "Professional Conference Systems | Synoveta", d
 function Heading({ eyebrow, title, description }) { return <div className="cs-heading"><span className="cs-eyebrow">{eyebrow}</span><h2>{title}</h2>{description && <p>{description}</p>}</div>; }
 
 export default function ConferenceCatalogPage() { return <><Header activePage="products"/><main className="cs-page">
-  <section className="cs-hero" aria-labelledby="cs-hero-title"><Image src={`${base}/landing/hero-v3.webp`} alt="Synoveta conference microphones and controller" fill priority sizes="100vw"/><div className="cs-container cs-hero-inner"><div className="cs-hero-copy"><span className="cs-eyebrow">Synoveta Conference System</span><h1 id="cs-hero-title">Professional<br/>Conference Systems<br/><em>for a Connected World</em></h1><p>Advanced wired and wireless discussion systems designed for clear communication, elegant meeting environments and reliable performance across global projects.</p><div className="cs-hero-actions"><Link className="cs-button cs-button-primary" href={series[0].href}>Explore Wired Systems <ArrowRight/></Link><Link className="cs-button cs-button-outline" href={series[1].href}>Explore Wireless Systems <ArrowRight/></Link><ConferenceVideo/></div></div></div></section>
+  <ConferenceHero/>
   <div className="cs-proof"><div className="cs-container">{[[Gem,"European-Level","Product Design"],[Radio,"Wired & Wireless","Solutions"],[Camera,"Camera Tracking","Support"],[Monitor,"AV Integration","Ready"]].map(([Icon,a,b])=><div key={a}><Icon/><span>{a}<br/>{b}</span></div>)}</div></div>
   <section className="cs-series cs-section" id="conference-series"><div className="cs-container"><Heading eyebrow="Find your ideal solution" title="Choose Your Conference System" description="Select a digital wired or WiFi wireless conference system to match your meeting space and installation requirements."/><div className="cs-series-grid">{series.map(item=><article className="cs-series-card" key={item.title}><Image className="cs-series-scene" src={item.scene} alt="" fill sizes="(max-width: 760px) 100vw, 50vw"/><div className="cs-series-gradient"/><div className="cs-series-copy"><h3>{item.title}</h3><p>{item.description}</p><ul>{item.points.map(point=><li key={point}><Check/>{point}</li>)}</ul><Link href={item.href} className="cs-pill">{item.button}<ArrowRight/></Link></div></article>)}</div></div></section>
   <section className="cs-capabilities cs-section"><div className="cs-container"><Heading eyebrow="Key features" title="Advanced Capabilities for Modern Conference Environments" description="Synoveta conference systems are designed to support clear communication, efficient control and professional integration."/><div className="cs-capability-grid">{capabilities.map(([Icon,title,description])=><article key={title}><Icon/><h3>{title}</h3><p>{description}</p></article>)}</div></div></section>
