@@ -1,0 +1,1648 @@
+[
+    {
+        "slug":  "sv-6540mu",
+        "role":  "System Controller",
+        "brand":  "Synoveta",
+        "name":  "Digital Wired Conference System Controller",
+        "model":  "SV-6540MU",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/DIGITAL WIRED-CONFERENCE-SYSTEM-CONTROLLER-SV-6540MU.webp",
+        "imageAlt":  "Synoveta SV-6540MU Digital Wired Conference System Controller",
+        "description":  "SV-6540MU is a digital wired conference system controller with discussing, video tracking, USB recording and LCD display. It supports up to 60 microphone units, multiple meeting modes, PC software control and telephone conference integration for professional meeting applications.",
+        "fullDescription":  "SV-6540MU is a digital wired conference system controller with discussing, video tracking, USB recording and LCD display. It supports up to 60 microphone units, multiple meeting modes, PC software control and telephone conference integration for professional meeting applications.",
+        "features":  [
+                         "USB recording function with one-button start recording and pause.",
+                         "Full digital circuit design.",
+                         "Four-way parallel control output.",
+                         "Supports a total of 60 microphone units.",
+                         "Built-in load and short-circuit protection.",
+                         "Extension controller can be connected for additional units.",
+                         "Seven meeting modes: FIFO, Limited Speech, Free Discussion, Chairman Only, LIFO, Vie to Speak and Apply to Speak.",
+                         "Large 240 × 128 dot-matrix LCD display.",
+                         "Front-panel function keys for system setting.",
+                         "Active speakers can be selected from 1 to 6, or all participants in supported modes.",
+                         "Video tracking with four signal inputs and two video outputs.",
+                         "Supports up to 250 preset points per video input.",
+                         "Supports PELCO-D, PELCO-P and VISCA camera communication protocols.",
+                         "PC software control.",
+                         "Built-in telephone coupler I/O.",
+                         "Three audio outputs for system integration."
+                     ],
+        "specifications":  [
+                               [
+                                   "Model No.",
+                                   "SV-6540MU"
+                               ],
+                               [
+                                   "Power Supply",
+                                   "AC 100–240 V, 50/60 Hz"
+                               ],
+                               [
+                                   "Microphone Capacity",
+                                   "60 units, expandable with extension controller"
+                               ],
+                               [
+                                   "Meeting Modes",
+                                   "FIFO / Limited / Free / Chairman Only / LIFO / Vie to Speak / Apply to Speak"
+                               ],
+                               [
+                                   "Output Impedance — RCA",
+                                   "200 Ω"
+                               ],
+                               [
+                                   "Output Impedance — LINE",
+                                   "200 Ω"
+                               ],
+                               [
+                                   "Output Impedance — BALANCE",
+                                   "300 Ω"
+                               ],
+                               [
+                                   "Output Impedance — UNBALANCE",
+                                   "400 Ω"
+                               ],
+                               [
+                                   "Input Impedance — LINE",
+                                   "50 kΩ"
+                               ],
+                               [
+                                   "Input Impedance — DIN",
+                                   "50 kΩ"
+                               ],
+                               [
+                                   "S/N Ratio",
+                                   "\u003e 90 dB (1 kHz, THD 1%)"
+                               ],
+                               [
+                                   "Case Dimension",
+                                   "480 × 360 × 85 mm"
+                               ],
+                               [
+                                   "Accessory",
+                                   "10 m 8-core shielded cable"
+                               ]
+                           ],
+        "seoTitle":  "Digital Wired Conference System Controller SV-6540MU | Synoveta",
+        "metaDescription":  "SV-6540MU is a digital wired conference system controller with discussing, video tracking, USB recording and LCD display. It supports up to 60 microphone units, multiple meeting modes, PC software control and telephone conference integration for professional meeting applications."
+    },
+    {
+        "slug":  "sv-6517c",
+        "role":  "Chairman Unit",
+        "brand":  "Synoveta",
+        "name":  "Digital Wired Conference Chairman Unit",
+        "model":  "SV-6517C",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/DIGITAL WIRED CONFERENCE CHAIRMAN UNIT SV-6517C.webp",
+        "imageAlt":  "Synoveta SV-6517C Digital Wired Conference Chairman Unit",
+        "description":  "SV-6517C is the chairman unit of the digital wired conference system microphone series, designed for discussing and camera tracking with a built-in speaker and volume control. It supports external earphone listening, shows working status with a round microphone lamp, and is powered by the main control unit.",
+        "fullDescription":  "SV-6517C is the chairman unit of the digital wired conference system microphone series, designed for discussing and camera tracking with a built-in speaker and volume control. It supports external earphone listening, shows working status with a round microphone lamp, and is powered by the main control unit.",
+        "features":  [
+                         "Built-in speaker and volume control.",
+                         "Supports external earphone listening.",
+                         "Round microphone lamp shows working status.",
+                         "Digital design.",
+                         "Microphone power supplied by the main control unit.",
+                         "Flexible tube and hard tube design for convenient adjustment.",
+                         "Chairman unit includes a speech button.",
+                         "Chairman unit includes a priority button.",
+                         "Priority button can override all delegate units."
+                     ],
+        "specifications":  [
+                               [
+                                   "Model No.",
+                                   "SV-6517C"
+                               ],
+                               [
+                                   "Type",
+                                   "Condenser"
+                               ],
+                               [
+                                   "Directivity",
+                                   "Ultra-Cardioid"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 16 kHz"
+                               ],
+                               [
+                                   "Sensitivity",
+                                   "-43 ± 2 dB @ 1 kHz"
+                               ],
+                               [
+                                   "Input Voltage",
+                                   "DC 9 V, supplied by host"
+                               ],
+                               [
+                                   "Minimum Input Impedance",
+                                   "1 kΩ"
+                               ],
+                               [
+                                   "S/N Ratio",
+                                   "90 dB"
+                               ],
+                               [
+                                   "Input Cable",
+                                   "2.0 m 8-core shielded cable"
+                               ],
+                               [
+                                   "Accessory",
+                                   "Windshield"
+                               ]
+                           ],
+        "seoTitle":  "Digital Wired Conference Chairman Unit SV-6517C | Synoveta",
+        "metaDescription":  "SV-6517C is the chairman unit of the digital wired conference system microphone series, designed for discussing and camera tracking with a built-in speaker and volume control. It supports external earphone listening, shows working status with a round microphone lamp, and is powered by the main control unit."
+    },
+    {
+        "slug":  "sv-6517d",
+        "role":  "Delegate Unit",
+        "brand":  "Synoveta",
+        "name":  "Digital Wired Conference Delegate Unit",
+        "model":  "SV-6517D",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/DIGITAL WIRED CONFERENCE DELEGATE UNIT SV-6517D.webp",
+        "imageAlt":  "Synoveta SV-6517D Digital Wired Conference Delegate Unit",
+        "description":  "SV-6517D is the delegate unit of the digital wired conference system microphone series, designed for discussing and camera tracking with a built-in speaker and volume control. It supports external earphone listening, shows working status with a round microphone lamp, and is powered by the main control unit.",
+        "fullDescription":  "SV-6517D is the delegate unit of the digital wired conference system microphone series, designed for discussing and camera tracking with a built-in speaker and volume control. It supports external earphone listening, shows working status with a round microphone lamp, and is powered by the main control unit.",
+        "features":  [
+                         "Built-in speaker and volume control.",
+                         "Supports external earphone listening.",
+                         "Round microphone lamp shows working status.",
+                         "Digital design.",
+                         "Microphone power supplied by the main control unit.",
+                         "Flexible tube and hard tube design for convenient adjustment.",
+                         "Delegate unit includes a speech button for participant discussion."
+                     ],
+        "specifications":  [
+                               [
+                                   "Model No.",
+                                   "SV-6517D"
+                               ],
+                               [
+                                   "Type",
+                                   "Condenser"
+                               ],
+                               [
+                                   "Directivity",
+                                   "Ultra-Cardioid"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 16 kHz"
+                               ],
+                               [
+                                   "Sensitivity",
+                                   "-43 ± 2 dB @ 1 kHz"
+                               ],
+                               [
+                                   "Input Voltage",
+                                   "DC 9 V, supplied by host"
+                               ],
+                               [
+                                   "Minimum Input Impedance",
+                                   "1 kΩ"
+                               ],
+                               [
+                                   "S/N Ratio",
+                                   "90 dB"
+                               ],
+                               [
+                                   "Input Cable",
+                                   "2.0 m 8-core shield cable"
+                               ],
+                               [
+                                   "Accessory",
+                                   "Windshield"
+                               ]
+                           ],
+        "seoTitle":  "Digital Wired Conference Delegate Unit SV-6517D | Synoveta",
+        "metaDescription":  "SV-6517D is the delegate unit of the digital wired conference system microphone series, designed for discussing and camera tracking with a built-in speaker and volume control. It supports external earphone listening, shows working status with a round microphone lamp, and is powered by the main control unit."
+    },
+    {
+        "slug":  "sv-hd08",
+        "role":  "PTZ Conference Camera",
+        "brand":  "Synoveta",
+        "name":  "High-Definition PTZ Conference Camera",
+        "model":  "SV-HD08",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/HIGH-DEFINITION PTZ CONFERENCE CAMERA SV-HD08.webp",
+        "imageAlt":  "Synoveta SV-HD08 High-Definition PTZ Conference Camera",
+        "description":  "SV-HD08 is a high-definition camera featuring a 1/2.8-inch CMOS sensor, approximately 2.07 million pixels in 16:9 format, 10x optical zoom and up to 1080p resolution. It supports multiple video outputs, serial control, preset positions and desktop or hoisting installation.",
+        "fullDescription":  "SV-HD08 is a high-definition camera featuring a 1/2.8-inch CMOS sensor, approximately 2.07 million pixels in 16:9 format, 10x optical zoom and up to 1080p resolution. It supports multiple video outputs, serial control, preset positions and desktop or hoisting installation.",
+        "features":  [
+                         "1/2.8-inch CMOS sensor.",
+                         "Around 2.07 million effective pixels, 16:9.",
+                         "10x optical zoom lens.",
+                         "Supports YPbPr, HDMI, HD-SDI and VBS image transmission simultaneously.",
+                         "Maximum resolution up to 1080p.",
+                         "Ultra-wide 50.6° angle of view.",
+                         "355° horizontal rotation.",
+                         "210° pitch range.",
+                         "Maximum horizontal rotation speed: 80°/s.",
+                         "Maximum vertical rotation speed: 60°/s.",
+                         "Supports preset positions.",
+                         "RS-232C / 422 serial control.",
+                         "Supports PELCO-D, PELCO-P and VISCA protocols.",
+                         "Desktop or hoisting installation."
+                     ],
+        "specifications":  [
+                               [
+                                   "Model No.",
+                                   "SV-HD08"
+                               ],
+                               [
+                                   "Image Sensor",
+                                   "1/2.8 inch CMOS"
+                               ],
+                               [
+                                   "Effective Pixels",
+                                   "Around 2.07 million, 16:9"
+                               ],
+                               [
+                                   "Optical Zoom",
+                                   "10x"
+                               ],
+                               [
+                                   "Video Outputs",
+                                   "YPbPr / HDMI / HD-SDI / VBS"
+                               ],
+                               [
+                                   "Maximum Resolution",
+                                   "1080p"
+                               ],
+                               [
+                                   "Angle of View",
+                                   "50.6°"
+                               ],
+                               [
+                                   "Pan / Tilt Range",
+                                   "355° horizontal / 210° pitch"
+                               ],
+                               [
+                                   "Maximum Rotation Speed",
+                                   "80°/s horizontal / 60°/s vertical"
+                               ],
+                               [
+                                   "Preset Positions",
+                                   "255 presets; 7 positions can be set"
+                               ],
+                               [
+                                   "Control / Protocols",
+                                   "RS-232C / 422; PELCO-D / PELCO-P / VISCA"
+                               ],
+                               [
+                                   "Installation",
+                                   "Desktop or Hoisting"
+                               ]
+                           ],
+        "seoTitle":  "High-Definition PTZ Conference Camera SV-HD08 | Synoveta",
+        "metaDescription":  "SV-HD08 is a high-definition camera featuring a 1/2.8-inch CMOS sensor, approximately 2.07 million pixels in 16:9 format, 10x optical zoom and up to 1080p resolution. It supports multiple video outputs, serial control, preset positions and desktop or hoisting installation."
+    },
+    {
+        "slug":  "sv-1001m",
+        "role":  "System Controller",
+        "brand":  "Synoveta",
+        "name":  "Digital Conference Main Controller",
+        "model":  "SV-1001M",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/DIGITAL CONFERENCE MAIN CONTROLLER SV-1001M.webp",
+        "imageAlt":  "Synoveta SV-1001M Digital Conference Main Controller",
+        "description":  "SV-1001M is a professional digital conference system main controller designed for centralized meeting management, digital audio processing, wired/wireless microphone control and PTZ camera tracking. It integrates a 4.3-inch full-color LCD, dual ring-network architecture, sign-in and voting, multiple speaking modes, USB recording, web-based management, Bluetooth audio I/O and central-control connectivity.",
+        "fullDescription":  "SV-1001M is a professional digital conference system main controller designed for centralized meeting management, digital audio processing, wired/wireless microphone control and PTZ camera tracking. It integrates a 4.3-inch full-color LCD, dual ring-network architecture, sign-in and voting, multiple speaking modes, USB recording, web-based management, Bluetooth audio I/O and central-control connectivity.",
+        "features":  [
+                         "4.3-inch full-color LCD display with intuitive UI.",
+                         "Multifunctional shuttle control.",
+                         "Dual ring-network architecture with two independent ring networks.",
+                         "Standalone meeting sign-in and voting.",
+                         "Multiple speaking modes:",
+                         "Restricted Speaking mode supports up to 10 simultaneous speakers.",
+                         "Individual or unified microphone input volume adjustment.",
+                         "Individual AGC and EQ adjustment.",
+                         "Configurable microphone unit role: Delegate / Chairman / Host.",
+                         "Configurable participant name and microphone number.",
+                         "Advanced PTZ camera tracking.",
+                         "Multi-camera/video-matrix integration.",
+                         "Supports PELCO-D, PELCO-P and VISCA.",
+                         "Wireless web-based management from PC, smartphone or tablet.",
+                         "USB meeting recording.",
+                         "Supports FAT-formatted USB flash drives up to 64 GB.",
+                         "Delegate microphone hot-plug support.",
+                         "Professional balanced and unbalanced audio outputs.",
+                         "Bluetooth audio input/output.",
+                         "RS-232 central-control integration."
+                     ],
+        "specifications":  [
+                               [
+                                   "Product Type",
+                                   "Digital Conference System Host / Main Controller"
+                               ],
+                               [
+                                   "Display",
+                                   "4.3-inch Full-Color LCD"
+                               ],
+                               [
+                                   "Display Resolution",
+                                   "480 × 272 pixels"
+                               ],
+                               [
+                                   "Display Languages",
+                                   "Chinese / English"
+                               ],
+                               [
+                                   "Power Supply",
+                                   "AC 110–220 V, 50 Hz"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "≤ 10 W without microphone units connected"
+                               ],
+                               [
+                                   "Network Protocols",
+                                   "TCP/IP / UDP / ARP / ICMP / IGMP / HTTP"
+                               ],
+                               [
+                                   "Network Speed",
+                                   "100 Mbps"
+                               ],
+                               [
+                                   "Audio Encoding",
+                                   "MP3 / PCM / ADPCM"
+                               ],
+                               [
+                                   "Audio Sampling Rate",
+                                   "8 kHz – 44.1 kHz"
+                               ],
+                               [
+                                   "Audio Bit Depth",
+                                   "16-bit"
+                               ],
+                               [
+                                   "Audio Bit Rate",
+                                   "8 kbps – 320 kbps"
+                               ],
+                               [
+                                   "Host-to-Microphone Sampling",
+                                   "Up to 48 kHz"
+                               ],
+                               [
+                                   "Transmission Latency",
+                                   "\u003c 10 ms"
+                               ],
+                               [
+                                   "SNR",
+                                   "\u003e 83 dB"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Network Interface",
+                                   "1 × RJ45"
+                               ],
+                               [
+                                   "USB Interface",
+                                   "1 × USB"
+                               ],
+                               [
+                                   "USB Storage",
+                                   "Up to 64 GB, FAT Format"
+                               ],
+                               [
+                                   "Balanced Audio Output",
+                                   "1 × Phoenix Connector"
+                               ],
+                               [
+                                   "XLR Balanced Output",
+                                   "1 × 3-Pin XLR"
+                               ],
+                               [
+                                   "Unbalanced/Stereo Line Output",
+                                   "1 × RCA / Lotus Head"
+                               ],
+                               [
+                                   "Ring Network Output",
+                                   "2 × Ring Network Outputs"
+                               ],
+                               [
+                                   "RS-232 Interface",
+                                   "1 × RS-232"
+                               ],
+                               [
+                                   "RS-485 Interface",
+                                   "1 × RS-485"
+                               ],
+                               [
+                                   "Camera Control",
+                                   "PELCO-D / PELCO-P / VISCA"
+                               ],
+                               [
+                                   "Bluetooth Audio I/O",
+                                   "Supported"
+                               ],
+                               [
+                                   "Web-Based Management",
+                                   "Supported"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Operating Temperature",
+                                   "0°C – 45°C"
+                               ],
+                               [
+                                   "Operating Humidity",
+                                   "≤ 90% RH, Non-Condensing"
+                               ],
+                               [
+                                   "Dimensions",
+                                   "483 × 204.5 × 89 mm"
+                               ]
+                           ],
+        "seoTitle":  "Digital Conference Main Controller SV-1001M | Synoveta",
+        "metaDescription":  "SV-1001M is a professional digital conference system main controller designed for centralized meeting management, digital audio processing, wired/wireless microphone control and PTZ camera tracking. It integrates a 4.3-inch full-color LCD, dual ring-network architecture, sign-in and voting, multiple speaking modes, USB recording, web-based management, Bluetooth audio I/O and central-control connectivity."
+    },
+    {
+        "slug":  "sv-5002c2",
+        "role":  "Chairman Unit",
+        "brand":  "Synoveta",
+        "name":  "Wireless Conference Chairman Unit",
+        "model":  "SV-5002C2",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/WIRELESS CONFERENCE CHAIRMAN UNIT SV-5002C2.webp",
+        "imageAlt":  "Synoveta SV-5002C2 Wireless Conference Chairman Unit",
+        "description":  "A compact wireless chairman conference unit with a 1.77-inch color display, chairman priority control, tri-band Wi-Fi, removable battery and integrated meeting functions.",
+        "fullDescription":  "A compact wireless chairman conference unit with a 1.77-inch color display, chairman priority control, tri-band Wi-Fi, removable battery and integrated meeting functions.",
+        "features":  [
+                         "1.77-inch full-color TFT display.",
+                         "160 × 128 display resolution.",
+                         "Chairman Priority Control.",
+                         "Chairman can approve or prohibit delegate units from speaking.",
+                         "Three multi-functional touch keys.",
+                         "Meeting sign-in support.",
+                         "Voting support.",
+                         "Real-time speaker information.",
+                         "Displays speaker name, seat number and speaking time.",
+                         "Tri-band wireless communication.",
+                         "Supports 2.4 GHz / 5.2 GHz / 5.8 GHz.",
+                         "WPA/WPA2 wireless encryption.",
+                         "Removable 4000 mAh polymer lithium battery.",
+                         "Video tracking support.",
+                         "Individual microphone gain, EQ and AGC adjustment through host.",
+                         "Wi-Fi wireless connection.",
+                         "Supercardioid microphone pickup pattern.",
+                         "USB Type-C charging."
+                     ],
+        "specifications":  [
+                               [
+                                   "Product Type",
+                                   "Wireless Conference Microphone Unit"
+                               ],
+                               [
+                                   "Display Type",
+                                   "Full-Color TFT Display"
+                               ],
+                               [
+                                   "Display Size",
+                                   "1.77 inch"
+                               ],
+                               [
+                                   "Display Resolution",
+                                   "160 × 128 pixels"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "2 W"
+                               ],
+                               [
+                                   "Battery Type",
+                                   "Removable Polymer Lithium Battery"
+                               ],
+                               [
+                                   "Battery Capacity",
+                                   "4000 mAh"
+                               ],
+                               [
+                                   "Continuous Speaking Time",
+                                   "Approx. 8 Hours"
+                               ],
+                               [
+                                   "Screen-On Standby Time",
+                                   "Approx. 10 Hours"
+                               ],
+                               [
+                                   "SNR",
+                                   "≥ 83 dB"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Wireless Frequency Bands",
+                                   "2.4 GHz / 5.2 GHz / 5.8 GHz"
+                               ],
+                               [
+                                   "Wireless Encryption",
+                                   "WPA / WPA2"
+                               ],
+                               [
+                                   "Connection Method",
+                                   "Wi-Fi Wireless Connection"
+                               ],
+                               [
+                                   "Microphone Polar Pattern",
+                                   "Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Storage",
+                                   "Built-in SPI Flash"
+                               ],
+                               [
+                                   "Charging Interface",
+                                   "USB Type-C"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ]
+                           ],
+        "seoTitle":  "Wireless Conference Chairman Unit SV-5002C2 | Synoveta",
+        "metaDescription":  "A compact wireless chairman conference unit with a 1.77-inch color display, chairman priority control, tri-band Wi-Fi, removable battery and integrated meeting functions."
+    },
+    {
+        "slug":  "sv-5002d2",
+        "role":  "Delegate Unit",
+        "brand":  "Synoveta",
+        "name":  "Wireless Conference Delegate Unit",
+        "model":  "SV-5002D2",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/WIRELESS CONFERENCE Delegate UNIT SV-5002D2.webp",
+        "imageAlt":  "Synoveta SV-5002D2 Wireless Conference Delegate Unit",
+        "description":  "A compact wireless delegate conference unit with a 1.77-inch color display, tri-band Wi-Fi connectivity, removable battery, voting support and professional voice pickup.",
+        "fullDescription":  "A compact wireless delegate conference unit with a 1.77-inch color display, tri-band Wi-Fi connectivity, removable battery, voting support and professional voice pickup.",
+        "features":  [
+                         "1.77-inch full-color TFT display.",
+                         "160 × 128 display resolution.",
+                         "Three multi-functional touch keys.",
+                         "Meeting sign-in and voting support.",
+                         "Real-time speaker information.",
+                         "Displays speaker name, seat number and speaking time.",
+                         "Tri-band wireless communication.",
+                         "Supports 2.4 GHz / 5.2 GHz / 5.8 GHz.",
+                         "WPA/WPA2 wireless encryption.",
+                         "Removable 4000 mAh polymer lithium battery.",
+                         "Video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Wi-Fi wireless connectivity.",
+                         "Supercardioid microphone pickup pattern.",
+                         "USB Type-C charging."
+                     ],
+        "specifications":  [
+                               [
+                                   "Product Type",
+                                   "Wireless Conference Microphone Unit"
+                               ],
+                               [
+                                   "Display Type",
+                                   "Full-Color TFT Display"
+                               ],
+                               [
+                                   "Display Size",
+                                   "1.77 inch"
+                               ],
+                               [
+                                   "Display Resolution",
+                                   "160 × 128 pixels"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "2 W"
+                               ],
+                               [
+                                   "Battery Type",
+                                   "Removable Polymer Lithium Battery"
+                               ],
+                               [
+                                   "Battery Capacity",
+                                   "4000 mAh"
+                               ],
+                               [
+                                   "Continuous Speaking Time",
+                                   "Approx. 8 Hours"
+                               ],
+                               [
+                                   "Screen-On Standby Time",
+                                   "Approx. 10 Hours"
+                               ],
+                               [
+                                   "SNR",
+                                   "≥ 83 dB"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Wireless Frequency Bands",
+                                   "2.4 GHz / 5.2 GHz / 5.8 GHz"
+                               ],
+                               [
+                                   "Wireless Encryption",
+                                   "WPA / WPA2"
+                               ],
+                               [
+                                   "Connection Method",
+                                   "Wi-Fi Wireless Connection"
+                               ],
+                               [
+                                   "Microphone Polar Pattern",
+                                   "Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Storage",
+                                   "Built-in SPI Flash"
+                               ],
+                               [
+                                   "Charging Interface",
+                                   "USB Type-C"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ]
+                           ],
+        "seoTitle":  "Wireless Conference Delegate Unit SV-5002D2 | Synoveta",
+        "metaDescription":  "A compact wireless delegate conference unit with a 1.77-inch color display, tri-band Wi-Fi connectivity, removable battery, voting support and professional voice pickup."
+    },
+    {
+        "slug":  "sv-3002c2",
+        "role":  "Chairman Unit",
+        "brand":  "Synoveta",
+        "name":  "Wireless Full-Digital Conference Chairman Unit",
+        "model":  "SV-3002C2",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/WIRELESS FULL-DIGITAL CONFERENCE CHAIRMAN UNIT SV-3002C2.webp",
+        "imageAlt":  "Synoveta SV-3002C2 Wireless Full-Digital Conference Chairman Unit",
+        "description":  "A full-digital wireless chairman unit featuring a 4-inch capacitive touch screen, chairman-controlled sign-in and voting, tri-band Wi-Fi and video tracking support.",
+        "fullDescription":  "A full-digital wireless chairman unit featuring a 4-inch capacitive touch screen, chairman-controlled sign-in and voting, tri-band Wi-Fi and video tracking support.",
+        "features":  [
+                         "4-inch full-color capacitive touch screen.",
+                         "480 × 480 resolution.",
+                         "Chairman-controlled meeting sign-in.",
+                         "Chairman-controlled voting.",
+                         "Real-time sign-in and voting results.",
+                         "Chairman Priority Control.",
+                         "Chairman can approve or prohibit delegate units from speaking.",
+                         "Real-time speaker name and seat-number display.",
+                         "Speaker request queue display.",
+                         "Tri-band 2.4 GHz / 5.2 GHz / 5.8 GHz Wi-Fi.",
+                         "WPA/WPA2 encryption.",
+                         "4000 mAh polymer lithium battery.",
+                         "Video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Wi-Fi wireless connectivity.",
+                         "Supercardioid pickup pattern."
+                     ],
+        "specifications":  [
+                               [
+                                   "Product Type",
+                                   "Wireless Chairman Conference Microphone Unit"
+                               ],
+                               [
+                                   "Display Type",
+                                   "Full-Color Capacitive Touch Screen"
+                               ],
+                               [
+                                   "Display Size",
+                                   "4 inch"
+                               ],
+                               [
+                                   "Display Resolution",
+                                   "480 × 480 RGB"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "3 W"
+                               ],
+                               [
+                                   "Battery Type",
+                                   "Polymer Lithium Battery"
+                               ],
+                               [
+                                   "Battery Capacity",
+                                   "4000 mAh"
+                               ],
+                               [
+                                   "Continuous Speaking Time",
+                                   "Approx. 6 Hours"
+                               ],
+                               [
+                                   "Screen-On Standby Time",
+                                   "Approx. 8 Hours"
+                               ],
+                               [
+                                   "SNR",
+                                   "≥ 83 dB"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Wireless Frequency Bands",
+                                   "2.4 GHz / 5.2 GHz / 5.8 GHz"
+                               ],
+                               [
+                                   "Wireless Encryption",
+                                   "WPA / WPA2"
+                               ],
+                               [
+                                   "Connection Method",
+                                   "Wi-Fi Wireless Connection"
+                               ],
+                               [
+                                   "Microphone Polar Pattern",
+                                   "Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Storage",
+                                   "Built-in SPI Flash"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ],
+                               [
+                                   "Operating Temperature",
+                                   "0°C – 45°C"
+                               ],
+                               [
+                                   "Operating Humidity",
+                                   "≤ 90% RH, Non-Condensing"
+                               ]
+                           ],
+        "seoTitle":  "Wireless Full-Digital Conference Chairman Unit SV-3002C2 | Synoveta",
+        "metaDescription":  "A full-digital wireless chairman unit featuring a 4-inch capacitive touch screen, chairman-controlled sign-in and voting, tri-band Wi-Fi and video tracking support."
+    },
+    {
+        "slug":  "sv-3002d2",
+        "role":  "Delegate Unit",
+        "brand":  "Synoveta",
+        "name":  "Wireless Full-Digital Conference Delegate Unit",
+        "model":  "SV-3002D2",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/WIRELESS FULL-DIGITAL CONFERENCE CHAIRMAN UNIT SV-3002D2.webp",
+        "imageAlt":  "Synoveta SV-3002D2 Wireless Full-Digital Conference Delegate Unit",
+        "description":  "A full-digital wireless delegate unit featuring a 4-inch capacitive touch screen, real-time meeting information, tri-band Wi-Fi, long-duration battery operation and video tracking support.",
+        "fullDescription":  "A full-digital wireless delegate unit featuring a 4-inch capacitive touch screen, real-time meeting information, tri-band Wi-Fi, long-duration battery operation and video tracking support.",
+        "features":  [
+                         "4-inch full-color capacitive touch screen.",
+                         "480 × 480 resolution.",
+                         "Meeting sign-in support.",
+                         "Voting support.",
+                         "Real-time sign-in and voting information.",
+                         "Real-time speaker information.",
+                         "Tri-band 2.4 GHz / 5.2 GHz / 5.8 GHz Wi-Fi.",
+                         "WPA/WPA2 encryption.",
+                         "4000 mAh polymer lithium battery.",
+                         "Video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Wi-Fi wireless connectivity.",
+                         "Supercardioid microphone pickup."
+                     ],
+        "specifications":  [
+                               [
+                                   "Display Type",
+                                   "Full-Color Capacitive Touch Screen"
+                               ],
+                               [
+                                   "Display Size",
+                                   "4 inch"
+                               ],
+                               [
+                                   "Display Resolution",
+                                   "480 × 480 RGB"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "3 W"
+                               ],
+                               [
+                                   "Battery Type",
+                                   "Polymer Lithium Battery"
+                               ],
+                               [
+                                   "Battery Capacity",
+                                   "4000 mAh"
+                               ],
+                               [
+                                   "Continuous Speaking Time",
+                                   "Approx. 6 Hours"
+                               ],
+                               [
+                                   "Screen-On Standby Time",
+                                   "Approx. 8 Hours"
+                               ],
+                               [
+                                   "SNR",
+                                   "≥ 83 dB"
+                               ],
+                               [
+                                   "Frequency Response",
+                                   "40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Wireless Frequency Bands",
+                                   "2.4 GHz / 5.2 GHz / 5.8 GHz"
+                               ],
+                               [
+                                   "Wireless Encryption",
+                                   "WPA / WPA2"
+                               ],
+                               [
+                                   "Connection Method",
+                                   "Wi-Fi Wireless Connection"
+                               ],
+                               [
+                                   "Microphone Polar Pattern",
+                                   "Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Storage",
+                                   "Built-in SPI Flash"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ],
+                               [
+                                   "Operating Temperature",
+                                   "0°C – 45°C"
+                               ],
+                               [
+                                   "Operating Humidity",
+                                   "≤ 90% RH, Non-Condensing"
+                               ]
+                           ],
+        "seoTitle":  "Wireless Full-Digital Conference Delegate Unit SV-3002D2 | Synoveta",
+        "metaDescription":  "A full-digital wireless delegate unit featuring a 4-inch capacitive touch screen, real-time meeting information, tri-band Wi-Fi, long-duration battery operation and video tracking support."
+    },
+    {
+        "slug":  "sv-p35",
+        "role":  "Conference Accessory",
+        "brand":  "Synoveta",
+        "name":  "Wireless Access Point",
+        "model":  "SV-P35",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/WIRELESS ACCESS POINT SV-P35.webp",
+        "imageAlt":  "Synoveta SV-P35 Wireless Access Point",
+        "description":  "A tri-band wireless access point designed to provide stable, high-speed and secure connectivity for compatible wireless conference system units, with PoE/DC power and flexible installation options.",
+        "fullDescription":  "A tri-band wireless access point designed to provide stable, high-speed and secure connectivity for compatible wireless conference system units, with PoE/DC power and flexible installation options.",
+        "features":  [
+                         "Tri-band Wi-Fi.",
+                         "Supports 2.4 GHz / 5.2 GHz / 5.8 GHz.",
+                         "IEEE 802.11a/b/g/n/ac/ax.",
+                         "Maximum access rate up to 2402 Mbps.",
+                         "Aggregate/concurrent wireless rate up to 3000 Mbps.",
+                         "Manual channel selection.",
+                         "Channel scanning.",
+                         "PoE power supply.",
+                         "DC power supply.",
+                         "Router mode.",
+                         "Access Point mode.",
+                         "Repeater/Relay mode.",
+                         "WPA/WPA2 encryption.",
+                         "Wall-mounted installation.",
+                         "Ceiling-mounted installation."
+                     ],
+        "specifications":  [
+                               [
+                                   "Product Type",
+                                   "Tri-Band Wireless Access Point"
+                               ],
+                               [
+                                   "Wireless Frequency Bands",
+                                   "2.4 GHz / 5.2 GHz / 5.8 GHz"
+                               ],
+                               [
+                                   "Wireless Standards",
+                                   "IEEE 802.11a/b/g/n/ac/ax"
+                               ],
+                               [
+                                   "Maximum Access Rate",
+                                   "Up to 2402 Mbps"
+                               ],
+                               [
+                                   "Aggregate/Concurrent Rate",
+                                   "Up to 3000 Mbps"
+                               ],
+                               [
+                                   "Wireless Security",
+                                   "WPA / WPA2"
+                               ],
+                               [
+                                   "Channel Scanning",
+                                   "Supported"
+                               ],
+                               [
+                                   "Manual Channel Selection",
+                                   "Supported"
+                               ],
+                               [
+                                   "Operating Modes",
+                                   "Router / Access Point AP / Repeater Relay"
+                               ],
+                               [
+                                   "PoE Power Supply",
+                                   "Supported"
+                               ],
+                               [
+                                   "DC Power Supply",
+                                   "Supported"
+                               ],
+                               [
+                                   "Installation",
+                                   "Wall Mount / Ceiling Mount"
+                               ]
+                           ],
+        "seoTitle":  "Wireless Access Point SV-P35 | Synoveta",
+        "metaDescription":  "A tri-band wireless access point designed to provide stable, high-speed and secure connectivity for compatible wireless conference system units, with PoE/DC power and flexible installation options."
+    },
+    {
+        "slug":  "sv-p01",
+        "role":  "Conference Accessory",
+        "brand":  "Synoveta",
+        "name":  "Conference Repeater",
+        "model":  "SV-P01",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/CONFERENCE REPEATER SV-P01.webp",
+        "imageAlt":  "Synoveta SV-P01 Conference Repeater",
+        "description":  "SV-P01 is a conference repeater/expander designed to extend microphone-unit capacity and transmission distance in Synoveta digital conference systems. It supports daisy-chain loop expansion and CAT5e-or-higher network cabling, with CAT6 shielded cable recommended for improved signal stability and interference resistance.",
+        "fullDescription":  "SV-P01 is a conference repeater/expander designed to extend microphone-unit capacity and transmission distance in Synoveta digital conference systems. It supports daisy-chain loop expansion and CAT5e-or-higher network cabling, with CAT6 shielded cable recommended for improved signal stability and interference resistance.",
+        "features":  [
+                         "One daisy-chain loop supports up to 20 conference microphone units.",
+                         "Systems using more than 15 touchscreen microphone units require an additional repeater/expander.",
+                         "Dual-loop configuration with repeater can support up to 40 conference microphone units.",
+                         "Supports CAT5e or higher-grade Ethernet cable.",
+                         "CAT6 Shielded Network Cable STP recommended for improved signal stability.",
+                         "Designed to improve transmission distance and system expansion."
+                     ],
+        "specifications":  [
+                               [
+                                   "Product Type",
+                                   "Conference Repeater / Expander"
+                               ],
+                               [
+                                   "Single Loop Capacity",
+                                   "Up to 20 Microphone Units"
+                               ],
+                               [
+                                   "Repeater Requirement",
+                                   "Required for more than 15 Touchscreen Microphone Units"
+                               ],
+                               [
+                                   "Dual Loop Capacity",
+                                   "Up to 40 Microphone Units with Repeater"
+                               ],
+                               [
+                                   "Minimum Cable Standard",
+                                   "CAT5e or above"
+                               ],
+                               [
+                                   "Recommended Cable",
+                                   "CAT6 Shielded Network Cable STP"
+                               ]
+                           ],
+        "seoTitle":  "Conference Repeater SV-P01 | Synoveta",
+        "metaDescription":  "SV-P01 is a conference repeater/expander designed to extend microphone-unit capacity and transmission distance in Synoveta digital conference systems. It supports daisy-chain loop expansion and CAT5e-or-higher network cabling, with CAT6 shielded cable recommended for improved signal stability and interference resistance."
+    },
+    {
+        "slug":  "sv-2001cl",
+        "role":  "Chairman Unit",
+        "brand":  "Synoveta",
+        "name":  "Wired Full-Digital Conference Chairman Unit",
+        "model":  "SV-2001CL",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/WIRED FULL-DIGITAL CONFERENCE CHAIRMAN UNIT SV-2001CL.webp",
+        "imageAlt":  "Synoveta SV-2001CL Wired Full-Digital Conference Chairman Unit",
+        "description":  "SV-2001CL is a wired full-digital conference chairman unit with a 4-inch full-color capacitive touch screen for meeting interaction and status display. It supports sign-in, voting, real-time participant information, full-digital audio transmission, video tracking and centralized control through the conference host.",
+        "fullDescription":  "SV-2001CL is a wired full-digital conference chairman unit with a 4-inch full-color capacitive touch screen for meeting interaction and status display. It supports sign-in, voting, real-time participant information, full-digital audio transmission, video tracking and centralized control through the conference host.",
+        "features":  [
+                         "4-inch full-color capacitive touchscreen.",
+                         "High-resolution graphical interface.",
+                         "Meeting sign-in.",
+                         "Voting.",
+                         "Real-time result display.",
+                         "Displays current speaker name.",
+                         "Displays seat number.",
+                         "Displays waiting-to-speak list.",
+                         "Supercardioid condenser microphone.",
+                         "Full-digital signal transmission.",
+                         "Speaking-status indicator integrated into microphone stem.",
+                         "Dual RJ45 interfaces.",
+                         "Daisy-chain / hand-in-hand connection.",
+                         "Video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Centralized 24 V power supply.",
+                         "CAT6 network-cable connectivity."
+                     ],
+        "specifications":  [
+                               [
+                                   "Display Type",
+                                   "Full-Color Capacitive Touch Screen"
+                               ],
+                               [
+                                   "Display Size / Resolution",
+                                   "4 inch / 480 × 480 RGB"
+                               ],
+                               [
+                                   "Power Supply",
+                                   "24 V DC, Centralized from Conference Host"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "≤ 3.5 W"
+                               ],
+                               [
+                                   "Audio Encoding",
+                                   "MP3 / PCM / ADPCM"
+                               ],
+                               [
+                                   "Audio Sampling / Bit Depth",
+                                   "8 kHz – 48 kHz / 16-bit"
+                               ],
+                               [
+                                   "Audio Bit Rate",
+                                   "8 kbps – 320 kbps"
+                               ],
+                               [
+                                   "SNR / Frequency Response",
+                                   "≥ 83 dB / 40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Microphone",
+                                   "Condenser Microphone; Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Storage",
+                                   "Built-in SPI Flash"
+                               ],
+                               [
+                                   "Connection",
+                                   "CAT6 Network Cable; 2 × RJ45"
+                               ],
+                               [
+                                   "Topology",
+                                   "Daisy-Chain / Hand-in-Hand Connection"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ],
+                               [
+                                   "Operating Environment",
+                                   "0°C – 45°C; ≤ 90% RH, Non-Condensing"
+                               ]
+                           ],
+        "seoTitle":  "Wired Full-Digital Conference Chairman Unit SV-2001CL | Synoveta",
+        "metaDescription":  "SV-2001CL is a wired full-digital conference chairman unit with a 4-inch full-color capacitive touch screen for meeting interaction and status display. It supports sign-in, voting, real-time participant information, full-digital audio transmission, video tracking and centralized control through the conference host."
+    },
+    {
+        "slug":  "sv-2001dl",
+        "role":  "Delegate Unit",
+        "brand":  "Synoveta",
+        "name":  "Wired Full-Digital Conference Delegate Unit",
+        "model":  "SV-2001DL",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/WIRED FULL-DIGITAL CONFERENCE DELEGATE UNIT SV-2001DL.webp",
+        "imageAlt":  "Synoveta SV-2001DL Wired Full-Digital Conference Delegate Unit",
+        "description":  "SV-2001DL is a wired full-digital conference delegate unit featuring a 4-inch full-color capacitive touch screen, high-quality condenser microphone and digital network connectivity. It supports meeting sign-in, voting, real-time meeting information, video tracking and individual audio adjustment through the conference host.",
+        "fullDescription":  "SV-2001DL is a wired full-digital conference delegate unit featuring a 4-inch full-color capacitive touch screen, high-quality condenser microphone and digital network connectivity. It supports meeting sign-in, voting, real-time meeting information, video tracking and individual audio adjustment through the conference host.",
+        "features":  [
+                         "4-inch full-color capacitive touchscreen.",
+                         "High-resolution graphical interface.",
+                         "Meeting sign-in and voting.",
+                         "Real-time result display.",
+                         "Displays current speaker name.",
+                         "Displays seat number.",
+                         "Displays waiting-to-speak list.",
+                         "Supercardioid condenser microphone.",
+                         "Full-digital signal transmission.",
+                         "Speaking-status indicator in microphone stem.",
+                         "Dual RJ45 interfaces.",
+                         "Daisy-chain / hand-in-hand connection.",
+                         "Video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Centralized 24 V power supply.",
+                         "CAT6 network-cable connectivity."
+                     ],
+        "specifications":  [
+                               [
+                                   "Display Type",
+                                   "Full-Color Capacitive Touch Screen"
+                               ],
+                               [
+                                   "Display Size / Resolution",
+                                   "4 inch / 480 × 480 RGB"
+                               ],
+                               [
+                                   "Power Supply",
+                                   "24 V DC, Centralized from Conference Host"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "≤ 3.5 W"
+                               ],
+                               [
+                                   "Audio Encoding",
+                                   "MP3 / PCM / ADPCM"
+                               ],
+                               [
+                                   "Audio Sampling / Bit Depth",
+                                   "8 kHz – 48 kHz / 16-bit"
+                               ],
+                               [
+                                   "Audio Bit Rate",
+                                   "8 kbps – 320 kbps"
+                               ],
+                               [
+                                   "SNR / Frequency Response",
+                                   "≥ 83 dB / 40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Microphone",
+                                   "Condenser Microphone; Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Storage",
+                                   "Built-in SPI Flash"
+                               ],
+                               [
+                                   "Connection",
+                                   "CAT6 Network Cable; 2 × RJ45"
+                               ],
+                               [
+                                   "Topology",
+                                   "Daisy-Chain / Hand-in-Hand Connection"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ],
+                               [
+                                   "Operating Environment",
+                                   "0°C – 45°C; ≤ 90% RH, Non-Condensing"
+                               ]
+                           ],
+        "seoTitle":  "Wired Full-Digital Conference Delegate Unit SV-2001DL | Synoveta",
+        "metaDescription":  "SV-2001DL is a wired full-digital conference delegate unit featuring a 4-inch full-color capacitive touch screen, high-quality condenser microphone and digital network connectivity. It supports meeting sign-in, voting, real-time meeting information, video tracking and individual audio adjustment through the conference host."
+    },
+    {
+        "slug":  "sv-3002cl",
+        "role":  "Chairman Unit",
+        "brand":  "Synoveta",
+        "name":  "Wired Full-Digital Conference Chairman Unit",
+        "model":  "SV-3002CL",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/WIRED FULL-DIGITAL CONFERENCE CHAIRMAN UNIT SV-3002CL.webp",
+        "imageAlt":  "Synoveta SV-3002CL Wired Full-Digital Conference Chairman Unit",
+        "description":  "SV-3002CL is a wired full-digital conference chairman unit with a 1.77-inch full-color TFT display and capacitive touch controls. It provides meeting sign-in, voting, chairman priority control, full-digital audio transmission, PTZ video tracking and centralized power/network connectivity for professional conference applications.",
+        "fullDescription":  "SV-3002CL is a wired full-digital conference chairman unit with a 1.77-inch full-color TFT display and capacitive touch controls. It provides meeting sign-in, voting, chairman priority control, full-digital audio transmission, PTZ video tracking and centralized power/network connectivity for professional conference applications.",
+        "features":  [
+                         "1.77-inch full-color TFT display.",
+                         "Three multi-functional capacitive touch keys.",
+                         "Meeting sign-in.",
+                         "Voting.",
+                         "Real-time result display.",
+                         "Chairman Priority Control.",
+                         "Chairman can approve or prohibit delegate units from speaking.",
+                         "Supercardioid condenser microphone.",
+                         "Full-digital signal transmission.",
+                         "Speaking-status indicator light.",
+                         "PTZ video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Centralized power supply.",
+                         "CAT6A network connectivity."
+                     ],
+        "specifications":  [
+                               [
+                                   "Display Type",
+                                   "Full-Color TFT Display"
+                               ],
+                               [
+                                   "Display Size / Resolution",
+                                   "1.77 inch / 160 × 128 pixels"
+                               ],
+                               [
+                                   "Power Supply",
+                                   "24 V DC, Centralized from Conference Host"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "≤ 2 W"
+                               ],
+                               [
+                                   "Audio Encoding",
+                                   "MP3 / PCM / ADPCM"
+                               ],
+                               [
+                                   "Audio Sampling / Bit Depth",
+                                   "8 kHz – 48 kHz / 16-bit"
+                               ],
+                               [
+                                   "Audio Bit Rate",
+                                   "8 kbps – 320 kbps"
+                               ],
+                               [
+                                   "SNR / Frequency Response",
+                                   "≥ 83 dB / 40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Server File Broadcast SNR",
+                                   "≥ 90 dB; 40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Microphone",
+                                   "Gold-Plated Condenser; 14 mm head; Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Connection",
+                                   "CAT6A Network Cable; 2 × RJ45"
+                               ],
+                               [
+                                   "Topology",
+                                   "Daisy-Chain / Hand-in-Hand Connection"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ],
+                               [
+                                   "Operating Environment",
+                                   "0°C – 45°C; ≤ 90% RH, Non-Condensing"
+                               ],
+                               [
+                                   "Dimensions",
+                                   "220 × 98.8 × 107.6 mm"
+                               ],
+                               [
+                                   "Materials",
+                                   "Pickup Cavity: Aluminum; Base: ABS"
+                               ]
+                           ],
+        "seoTitle":  "Wired Full-Digital Conference Chairman Unit SV-3002CL | Synoveta",
+        "metaDescription":  "SV-3002CL is a wired full-digital conference chairman unit with a 1.77-inch full-color TFT display and capacitive touch controls. It provides meeting sign-in, voting, chairman priority control, full-digital audio transmission, PTZ video tracking and centralized power/network connectivity for professional conference applications."
+    },
+    {
+        "slug":  "sv-3002dl",
+        "role":  "Delegate Unit",
+        "brand":  "Synoveta",
+        "name":  "Wired Full-Digital Conference Delegate Unit",
+        "model":  "SV-3002DL",
+        "systemType":  "digital-wired-conference",
+        "image":  "/Confeernce system/digital-wired- conference-system/WIRED FULL-DIGITAL CONFERENCE DELEGATE UNIT SV-3002DL.webp",
+        "imageAlt":  "Synoveta SV-3002DL Wired Full-Digital Conference Delegate Unit",
+        "description":  "SV-3002DL is a wired full-digital conference delegate unit with a 1.77-inch full-color TFT display, capacitive touch controls and a gold-plated condenser microphone. It supports meeting sign-in, voting, full-digital audio transmission, PTZ video tracking and centralized host-based audio adjustment and power distribution.",
+        "fullDescription":  "SV-3002DL is a wired full-digital conference delegate unit with a 1.77-inch full-color TFT display, capacitive touch controls and a gold-plated condenser microphone. It supports meeting sign-in, voting, full-digital audio transmission, PTZ video tracking and centralized host-based audio adjustment and power distribution.",
+        "features":  [
+                         "1.77-inch full-color TFT display.",
+                         "Three multi-functional capacitive touch keys.",
+                         "Meeting sign-in.",
+                         "Voting.",
+                         "Real-time result display.",
+                         "Supercardioid condenser microphone.",
+                         "Full-digital signal transmission.",
+                         "Speaking-status indicator light.",
+                         "PTZ video tracking.",
+                         "Individual microphone gain, EQ and AGC adjustment.",
+                         "Centralized power supply.",
+                         "CAT6A network connectivity."
+                     ],
+        "specifications":  [
+                               [
+                                   "Display Type",
+                                   "Full-Color TFT Display"
+                               ],
+                               [
+                                   "Display Size / Resolution",
+                                   "1.77 inch / 160 × 128 pixels"
+                               ],
+                               [
+                                   "Power Supply",
+                                   "24 V DC, Centralized from Conference Host"
+                               ],
+                               [
+                                   "Power Consumption",
+                                   "≤ 2 W"
+                               ],
+                               [
+                                   "Audio Encoding",
+                                   "MP3 / PCM / ADPCM"
+                               ],
+                               [
+                                   "Audio Sampling / Bit Depth",
+                                   "8 kHz – 48 kHz / 16-bit"
+                               ],
+                               [
+                                   "Audio Bit Rate",
+                                   "8 kbps – 320 kbps"
+                               ],
+                               [
+                                   "SNR / Frequency Response",
+                                   "≥ 83 dB / 40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Server File Broadcast SNR",
+                                   "≥ 90 dB; 40 Hz – 18 kHz"
+                               ],
+                               [
+                                   "Microphone",
+                                   "Gold-Plated Condenser; 14 mm head; Supercardioid"
+                               ],
+                               [
+                                   "Headphone Output",
+                                   "Ø3.5 mm Stereo Jack"
+                               ],
+                               [
+                                   "Connection",
+                                   "CAT6A Network Cable; 2 × RJ45"
+                               ],
+                               [
+                                   "Topology",
+                                   "Daisy-Chain / Hand-in-Hand Connection"
+                               ],
+                               [
+                                   "Video Tracking",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Adjustment",
+                                   "Individual Microphone Gain, EQ \u0026 AGC via Conference Host"
+                               ],
+                               [
+                                   "Operating Environment",
+                                   "0°C – 45°C; ≤ 90% RH, Non-Condensing"
+                               ],
+                               [
+                                   "Dimensions",
+                                   "220 × 98.8 × 107.6 mm"
+                               ],
+                               [
+                                   "Materials",
+                                   "Pickup Cavity: Aluminum; Base: ABS"
+                               ]
+                           ],
+        "seoTitle":  "Wired Full-Digital Conference Delegate Unit SV-3002DL | Synoveta",
+        "metaDescription":  "SV-3002DL is a wired full-digital conference delegate unit with a 1.77-inch full-color TFT display, capacitive touch controls and a gold-plated condenser microphone. It supports meeting sign-in, voting, full-digital audio transmission, PTZ video tracking and centralized host-based audio adjustment and power distribution."
+    },
+    {
+        "slug":  "sv-101sxj",
+        "role":  "PTZ Conference Camera",
+        "brand":  "Synoveta",
+        "name":  "HD PTZ Video Conference Camera",
+        "model":  "SV-101SXJ",
+        "systemType":  "wifi-wireless-conference",
+        "image":  "/Confeernce system/wifi-wireless-conference-system/HD-PTZ VIDEO-CONFERENCE-CAMERA.webp",
+        "imageAlt":  "Synoveta SV-101SXJ HD PTZ Video Conference Camera",
+        "description":  "Professional Full HD PTZ conference camera featuring a 1/2.8-inch 2.07 MP CMOS sensor, 20x optical zoom, 1080p60 output, motorized pan/tilt, low-latency multi-interface video, network streaming, USB connectivity, integrated audio support and remote PTZ control. Designed for video conferencing, education recording, remote learning, live streaming and broadcasting.",
+        "fullDescription":  "Professional Full HD PTZ conference camera featuring a 1/2.8-inch 2.07 MP CMOS sensor, 20x optical zoom, 1080p60 output, motorized pan/tilt, low-latency multi-interface video, network streaming, USB connectivity, integrated audio support and remote PTZ control. Designed for video conferencing, education recording, remote learning, live streaming and broadcasting.",
+        "features":  [
+                         "Full HD 1920 × 1080 imaging.",
+                         "1/2.8-inch 2.07 MP CMOS sensor.",
+                         "20x optical zoom.",
+                         "Lens: f=4.42–88.5 mm, F1.8–F2.8.",
+                         "Horizontal FOV: 60.7°–3.36°.",
+                         "Motorized PTZ.",
+                         "Pan ±170°.",
+                         "Tilt −30° to +90°.",
+                         "Up to 255 presets.",
+                         "0.1° preset accuracy.",
+                         "Simultaneous 1080p60 via 3G-SDI, HDMI, USB and network.",
+                         "2D \u0026 3D digital noise reduction.",
+                         "Minimum illumination: 0.5 Lux.",
+                         "USB 3.0.",
+                         "UVC 1.1 / UVC 1.5.",
+                         "UAC 2.0 audio.",
+                         "H.265 / H.264 network streaming.",
+                         "Dual-stream network video.",
+                         "RS-232 / RS-485 remote control.",
+                         "VISCA / Pelco-D / Pelco-P.",
+                         "Gigabit Ethernet.",
+                         "PoE support.",
+                         "Built-in dual microphone array.",
+                         "3.5 mm Line-In / Line-Out.",
+                         "FULL NDI / NDI|HX2 optional support.",
+                         "TCP/IP / HTTP / RTSP / RTMP / ONVIF / DHCP / Multicast / SRT."
+                     ],
+        "specifications":  [
+                               [
+                                   "Image Sensor",
+                                   "1/2.8-inch CMOS, 2.07 MP effective pixels"
+                               ],
+                               [
+                                   "Video Output",
+                                   "HDMI / 3G-SDI up to 1080P60; USB and network output"
+                               ],
+                               [
+                                   "Lens",
+                                   "20x optical zoom, f=4.42–88.5 mm, F1.8–F2.8"
+                               ],
+                               [
+                                   "Minimum Illumination",
+                                   "0.5 Lux @ F1.8, AGC ON"
+                               ],
+                               [
+                                   "Shutter",
+                                   "1/30 s – 1/10000 s"
+                               ],
+                               [
+                                   "Backlight Compensation",
+                                   "Supported"
+                               ],
+                               [
+                                   "Noise Reduction",
+                                   "2D \u0026 3D DNR"
+                               ],
+                               [
+                                   "S/N Ratio",
+                                   "≥ 55 dB"
+                               ],
+                               [
+                                   "Horizontal Field of View",
+                                   "60.7°–3.36°"
+                               ],
+                               [
+                                   "Vertical Field of View",
+                                   "34.1°–1.89°"
+                               ],
+                               [
+                                   "Pan Range / Speed",
+                                   "±170°, 1.7°–100°/s"
+                               ],
+                               [
+                                   "Tilt Range / Speed",
+                                   "−30° to +90°, 1.7°–69.9°/s"
+                               ],
+                               [
+                                   "Presets",
+                                   "255"
+                               ],
+                               [
+                                   "Preset Accuracy",
+                                   "0.1°"
+                               ],
+                               [
+                                   "USB",
+                                   "USB 3.0 Type-A"
+                               ],
+                               [
+                                   "USB Video",
+                                   "UVC 1.1 / 1.5"
+                               ],
+                               [
+                                   "USB Formats",
+                                   "YUY2 / H.264 / MJPEG"
+                               ],
+                               [
+                                   "USB Audio",
+                                   "UAC 2.0"
+                               ],
+                               [
+                                   "Network Video",
+                                   "H.265 / H.264"
+                               ],
+                               [
+                                   "Network Streams",
+                                   "Dual stream"
+                               ],
+                               [
+                                   "Network Frame Rate",
+                                   "1–60 fps"
+                               ],
+                               [
+                                   "Network Bitrate",
+                                   "32–102400 Kbps"
+                               ],
+                               [
+                                   "Protocols",
+                                   "FULL NDI / NDI|HX2 / TCP/IP / HTTP / RTSP / RTMP / ONVIF / DHCP / Multicast / SRT / GB/T 28181"
+                               ],
+                               [
+                                   "Ethernet",
+                                   "RJ45 10/100/1000M adaptive Ethernet"
+                               ],
+                               [
+                                   "PoE",
+                                   "Supported"
+                               ],
+                               [
+                                   "Audio Input",
+                                   "3.5 mm Line-In ×1"
+                               ],
+                               [
+                                   "Audio Output",
+                                   "3.5 mm Line-Out ×1"
+                               ],
+                               [
+                                   "Built-in Audio",
+                                   "Dual Microphone Array"
+                               ],
+                               [
+                                   "Control Interfaces",
+                                   "RS232 In/Out / RS485"
+                               ],
+                               [
+                                   "PTZ Protocols",
+                                   "VISCA / Pelco-D / Pelco-P"
+                               ],
+                               [
+                                   "Power",
+                                   "DC 12 V / PoE 802.3af"
+                               ],
+                               [
+                                   "Maximum Current",
+                                   "1.0 A"
+                               ],
+                               [
+                                   "Maximum Power",
+                                   "12 W"
+                               ],
+                               [
+                                   "Operating Temperature",
+                                   "0–40°C"
+                               ],
+                               [
+                                   "Storage Temperature",
+                                   "−40–60°C"
+                               ],
+                               [
+                                   "Dimensions",
+                                   "169 × 142 × 175 mm"
+                               ],
+                               [
+                                   "Weight",
+                                   "1.5 kg"
+                               ]
+                           ],
+        "seoTitle":  "HD PTZ Video Conference Camera SV-101SXJ | Synoveta",
+        "metaDescription":  "Professional Full HD PTZ conference camera featuring a 1/2.8-inch 2.07 MP CMOS sensor, 20x optical zoom, 1080p60 output, motorized pan/tilt, low-latency multi-interface video, network streaming, USB connectivity, integrated audio support and remote PTZ control. Designed for video conferencing, education recording, remote learning, live streaming and broadcasting."
+    }
+]

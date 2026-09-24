@@ -72,7 +72,7 @@ export default async function ConferenceTypePage({ params }) {
           {type.products.map((product) => <article className='conference-product-card' key={product.model}>
             <div className='conference-product-image'>
               <span className='conference-product-role'>{product.role}</span>
-              <Image src={product.image} alt={`${product.model} ${product.name}`} fill sizes='(max-width:500px) 100vw,(max-width:960px) 50vw,33vw'/>
+              {product.image && <Image src={product.image} alt={product.imageAlt || `Synoveta ${product.model} ${product.name}`} fill sizes='(max-width:500px) 100vw,(max-width:960px) 50vw,33vw'/>}
             </div>
             <div className='conference-product-copy'>
               <span className='conference-product-model'>{product.model}</span>
