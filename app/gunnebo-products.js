@@ -3,7 +3,7 @@ const base = "/product-assets/turnstile-gate/gunnebo";
 export const gunneboRanges = {
   "tripod-turnstiles": {
     title: "Tripod Turnstiles",
-    copy: "Compact and dependable Gunnebo tripod turnstiles for efficient pedestrian flow and controlled entry.",
+    copy: "Compact and dependable Synoveta tripod turnstiles for efficient pedestrian flow and controlled entry.",
     products: [
       {
         slug: "slimstile-ev",
@@ -13,15 +13,15 @@ export const gunneboRanges = {
       },
       {
         slug: "gunnebo-tripod-turnstile",
-        name: "Gunnebo Tripod Turnstile",
+        name: "Synoveta Tripod Turnstile",
         image: `${base}/Tripod-turnstiles/tripod-turnstiles-gunnebo-entrance-control.jpg`,
-        summary: "A versatile Gunnebo entrance-control solution for secure and efficient pedestrian access.",
+        summary: "A versatile Synoveta entrance-control solution for secure and efficient pedestrian access.",
       },
     ],
   },
   "full-height-turnstiles": {
     title: "Full-Height Turnstiles",
-    copy: "Robust Gunnebo full-height turnstiles for high-security outdoor, industrial and restricted-area access.",
+    copy: "Robust Synoveta full-height turnstiles for high-security outdoor, industrial and restricted-area access.",
     products: [
       {
         slug: "90-ev-double-with-canopy",
@@ -45,7 +45,7 @@ export const gunneboRanges = {
         slug: "rotasec",
         name: "RotaSec",
         image: `${base}/full-height-turnstiles/ROtaSec_.png`,
-        summary: "A robust Gunnebo full-height turnstile for dependable access control in demanding sites.",
+        summary: "A robust Synoveta full-height turnstile for dependable access control in demanding sites.",
       },
       {
         slug: "rotatech",
@@ -57,7 +57,7 @@ export const gunneboRanges = {
         slug: "rotasec-entrance-control",
         name: "RotaSec Entrance Control",
         image: `${base}/full-height-turnstiles/turnstiles-gunnebo-entrance-control-rotasec.jpg`,
-        summary: "Gunnebo RotaSec entrance control for secure passage through sensitive and restricted areas.",
+        summary: "Synoveta RotaSec entrance control for secure passage through sensitive and restricted areas.",
       },
     ],
   },
