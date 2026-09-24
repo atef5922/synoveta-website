@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Globe2, Users, Layers, ShieldCheck, Box, Settings, ArrowRight } from "lucide-react";
 
-const stats = [[Globe2,"50+","Countries Served","Expanding possibilities worldwide"],[Users,"200+","Global Partners","Building stronger together"],[Layers,"10,000+","Projects Completed","Connecting organisations globally"],[ShieldCheck,"24/7","Technical Support","Supporting your next step"]];
+const stats = [[Globe2,"70+","Countries Served","Expanding possibilities worldwide"],[Users,"200+","Global Partners","Building stronger together"],[Layers,"10,000+","Projects Completed","Connecting organisations globally"],[ShieldCheck,"24/7","Technical Support","Supporting your next step"]];
 const services = [[Box,"Technology Products","A focused range of professional products for connected spaces.","/products/"],[Settings,"System Integration","Complete solutions tailored to your project requirements.","/solutions/"],[Globe2,"OEM / ODM & Global Supply","Flexible assembly and supply for your business needs.","/partners/"]];
 const cities = [["Italy","Headquarters","0%"],["Dubai","United Arab Emirates","100%"],["Singapore","Regional Office","50%"]];
 

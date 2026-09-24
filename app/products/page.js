@@ -13,7 +13,7 @@ const products = [
   { title:"PA & Audio System", short:"PA & Audio System", image:"/product-assets/PA & Audio system.webp", copy:"Public address systems, amplifiers, speakers, microphones and professional audio solutions.", slug:"pa-audio-system", icon:AudioLines },
   { title:"LED Display Solution", short:"LED Display Solution", image:"/product-assets/LED diplay solution.webp", copy:"Indoor & outdoor LED displays, rental solutions, LED modules and control systems.", slug:"led-display-solution", icon:Grid3X3 },
 ];
-const assurances=[["European Standards","Quality and safety compliant with international standards.",ShieldCheck],["Global Assembly","Assembly & integration facilities in Italy and China.",Building2],["Project Support","Tender support, documentation and technical assistance.",MonitorCog],["Trusted Worldwide","Serving partners and customers in 50+ countries.",Users]];
+const assurances=[["European Standards","Quality and safety compliant with international standards.",ShieldCheck],["Global Assembly","Assembly & integration facilities in Italy and China.",Building2],["Project Support","Tender support, documentation and technical assistance.",MonitorCog],["Trusted Worldwide","Serving partners and customers in 70+ countries.",Users]];
 
 export const metadata={title:"Products | Synoveta",description:"Explore Synoveta technology products and solution categories."};
 export default function ProductsPage(){return <><Header activePage="products"/><main className="products-listing">
