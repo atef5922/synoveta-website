@@ -1,6 +1,8 @@
 ﻿const wiredBase = '/Confeernce system/digital-wired- conference-system';
 const wirelessBase = '/Confeernce system/wifi-wireless-conference-system';
 
+import approvedConferenceProducts from './approved-conference-products.json';
+
 const m809CommonFeatures = [
   'High-definition 2.4-inch full-color display showing microphone status, current time and date, speaking time, speaking timer, signal strength, battery power, ID number and other information.',
   '48 kHz sampling rate; the microphone powers on and connects in about 5 seconds.',
@@ -449,6 +451,26 @@ export const conferenceSystems = {
     ],
   },
 };
+
+// Show the newly approved catalogue first in each system, followed by the
+// legacy range. Matching legacy records are merged instead of duplicated.
+for (const [systemType, system] of Object.entries(conferenceSystems)) {
+  const approvedProducts = approvedConferenceProducts.filter(
+    (product) => product.systemType === systemType
+  );
+  const approvedModels = new Set(approvedProducts.map((product) => product.model));
+  const legacyProductsByModel = new Map(
+    system.products.map((product) => [product.model, product])
+  );
+
+  system.products = [
+    ...approvedProducts.map((product) => ({
+      ...legacyProductsByModel.get(product.model),
+      ...product,
+    })),
+    ...system.products.filter((product) => !approvedModels.has(product.model)),
+  ];
+}
 
 export const conferenceSystemSlugs = Object.keys(conferenceSystems);
 
