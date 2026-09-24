@@ -1,3 +1,4 @@
+.home-landing{max-width:100%;overflow-x:clip}
 .home-company-sections{font-family:var(--font-inter),Arial,sans-serif}
 .home-company-sections .container{width:min(1580px,calc(100% - clamp(20px,5vw,100px)*2))}
 .home-company{padding:36px 0 44px;background:linear-gradient(120deg,#f7fbff,#eff6fd);color:#10243e}
@@ -46,7 +47,8 @@
 .home-world-button:hover{background:#ffffff12;border-color:#fff}
 .home-world-locations{border-left:1px solid #55748e70;padding-left:24px;display:grid;gap:14px}
 .home-world .home-world-motto{font-size:9px!important;line-height:1.7;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;color:#b8cbdd;margin:0}
-.home-world-city{display:flex;align-items:center;gap:11px}
+.home-world-city{display:flex;align-items:center;gap:11px;min-width:0}
+.home-world-city>div:last-child{min-width:0}
 .home-world-city-image{width:82px;height:54px;border-radius:4px;flex:none;background-image:url('/Home page/global/city-scenes.webp');background-size:300% auto;background-repeat:no-repeat}
 .home-world-city h3{font:600 12px/1.3 var(--font-inter),Arial,sans-serif;color:#f2f7ff;margin:0 0 4px}
 .home-world .home-world-city p{font-size:10px!important;line-height:1.4;color:#adbed1;margin:0}
@@ -56,6 +58,7 @@
 .home-story-dialog video{display:block;width:100%;max-height:75svh}
 .home-company-sections :is(a,button):focus-visible{outline:3px solid #4e9bff;outline-offset:4px}
 @media(max-width:1100px){.home-company-stats>div{padding-inline:22px}.home-company-stats>div>svg{right:15px;width:19px;height:19px}.home-company-stats dd{font-size:34px}.home-company-stats dt{font-size:12px}.home-company-main{grid-template-columns:43% minmax(0,57%)}.home-company-services{gap:14px}.home-company-services article{padding:18px;gap:12px}.home-company-services article>svg{width:27px}.home-world-grid{grid-template-columns:37% 37% 26%}.home-world-visual{width:43%}.home-world-copy{padding-inline:18px}.home-world-locations{padding-left:16px}.home-world-city-image{width:60px;height:48px}.home-world-button{white-space:normal}}
+@media(min-width:801px) and (max-width:960px){.home-world-grid{grid-template-columns:34% 39% 27%}.home-world-copy{padding-left:14px}.home-world-locations{padding-left:14px}.home-world-city{gap:8px}.home-world-city-image{width:52px;height:44px}.home-world-city h3{font-size:11px}.home-world .home-world-city p{font-size:9px!important}}
 @media(max-width:800px){.home-company-stats{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:24px;padding-block:24px;margin-bottom:36px}.home-company-stats>div{padding:0 24px}.home-company-stats>div:nth-child(odd){padding-left:0;border-left:0}.home-company-stats>div:nth-child(n+3){padding-top:24px;border-top:1px solid #d9e4ef}.home-company-stats>div:nth-child(n+3)>svg{top:30px}.home-company-stats>div>svg{right:24px}.home-company-main{grid-template-columns:1fr;gap:25px}.home-company-copy{padding:0;max-width:580px}.home-company h2{font-size:30px}.home-company-visual{aspect-ratio:16/9;min-height:280px}.home-company-services{grid-template-columns:1fr}.home-company-services article{padding:20px}.home-company-services p{max-width:none}.home-world-grid{grid-template-columns:1fr 1fr;padding-top:300px;gap:28px}.home-world-space{display:none}.home-world-visual{width:100%;height:310px}.home-world-visual img{object-position:center 42%}.home-world-visual:after{background:linear-gradient(0deg,#031320,transparent 45%)}.home-world-copy{padding:0;border:0}.home-world-locations{padding-left:24px}.home-world-city-image{width:78px;height:52px}}
 @media(max-width:480px){.home-company{padding-top:28px}.home-company-stats>div{padding-inline:18px}.home-company-stats dd{font-size:32px;letter-spacing:-1px;margin-bottom:8px}.home-company-stats dt{font-size:11px}.home-company-stats>div>svg{display:none}.home-company h2{font-size:27px}.home-company-visual{min-height:260px;aspect-ratio:1.3}.home-company-motto{width:36%;font-size:7px;padding:15px 12px 60px}.home-story-preview{width:43%;min-height:80px;right:10px;bottom:10px;padding:10px}.home-story-preview strong{font-size:11px}.home-world-grid{grid-template-columns:1fr;padding-top:265px;gap:28px}.home-world-visual{height:275px}.home-world-locations{border-left:0;border-top:1px solid #55748e70;padding:24px 0 0;gap:16px}.home-world-city-image{width:90px;height:55px}.home-world h2{font-size:27px}}
 

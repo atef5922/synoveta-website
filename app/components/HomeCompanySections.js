@@ -4,7 +4,7 @@ import { Globe2, Users, Layers, ShieldCheck, Box, Settings, ArrowRight } from "l
 
 const stats = [[Globe2,"50+","Countries Served","Expanding possibilities worldwide"],[Users,"200+","Global Partners","Building stronger together"],[Layers,"10,000+","Projects Completed","Connecting organisations globally"],[ShieldCheck,"24/7","Technical Support","Supporting your next step"]];
 const services = [[Box,"Technology Products","A focused range of professional products for connected spaces.","/products/"],[Settings,"System Integration","Complete solutions tailored to your project requirements.","/solutions/"],[Globe2,"OEM / ODM & Global Supply","Flexible assembly and supply for your business needs.","/partners/"]];
-const cities = [["Italy","Headquarters","0%"],["Singapore","Regional Office","50%"],["Dubai","United Arab Emirates","100%"]];
+const cities = [["Italy","Headquarters","0%"],["Dubai","United Arab Emirates","100%"],["Singapore","Regional Office","50%"]];
 
 export function HomeCompanyOverview() {
   return <div className="home-company-sections">
@@ -27,7 +27,7 @@ export function HomeGlobalPresence() {
       <div className="home-world-visual"><Image src="/Home page/global/connected-globe.webp" alt="Illustrative connected globe showing Europe, the Middle East and Asia" fill sizes="(max-width: 800px) 100vw, 48vw"/></div>
       <div className="container home-world-grid">
         <div className="home-world-space" aria-hidden="true"/>
-        <div className="home-world-copy"><p className="home-company-kicker">Our global presence</p><h2 id="home-world-title">A Stronger, More<br/>Connected World</h2><p>With offices in Italy and Singapore and a network of partners in over 50 countries, Synoveta connects people and projects with technology solutions worldwide.</p><Link href="/partners/" className="home-world-button">View Our Global Network <ArrowRight aria-hidden="true"/></Link></div>
+        <div className="home-world-copy"><p className="home-company-kicker">Our global presence</p><h2 id="home-world-title">A Stronger, More<br/>Connected World</h2><p>With offices in Italy, Dubai and Singapore, plus a network of partners in over 50 countries, Synoveta connects people and projects with technology solutions worldwide.</p><Link href="/partners/" className="home-world-button">View Our Global Network <ArrowRight aria-hidden="true"/></Link></div>
         <div className="home-world-locations"><p className="home-world-motto">Local expertise<br/>Global impact</p>{cities.map(([name,detail,position])=><div className="home-world-city" key={name}><div className="home-world-city-image" style={{backgroundPosition:`${position} center`}} role="img" aria-label={`Illustrative ${name} city skyline`}/><div><h3>{name}</h3><p>{detail}</p></div></div>)}</div>
       </div>
     </section>

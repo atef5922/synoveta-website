@@ -13,3 +13,26 @@
 @media(max-width:760px){.sidebar-subcategories{position:static;width:auto;margin-left:12px;padding:2px;border:0;border-left:1px solid #bcd8f2;border-radius:0;box-shadow:none;opacity:1;visibility:visible;transform:none}}
 .custom-card>svg{display:none}
 .custom-card>a{font-size:15px}
+
+/* Functional catalog controls and stable responsive card layout. */
+.products-catalog{grid-template-columns:230px minmax(0,1fr)}
+.catalog-main{min-width:0}
+.custom-card h2{font-family:var(--font-inter),Arial,sans-serif}
+.catalog-tools{height:auto;min-height:44px}
+.catalog-tools input{padding-right:42px;color:#102a4b;outline:none}
+.catalog-tools input:focus{border-color:#0873e6;box-shadow:0 0 0 3px #0873e619}
+.catalog-search>svg{position:absolute;right:12px;top:10px;width:17px;color:#244875}
+.catalog-search button{position:absolute;right:4px;top:4px;display:grid;place-items:center;width:30px;height:30px;padding:0;border:0;border-radius:4px;background:transparent;color:#244875;cursor:pointer}
+.catalog-search button:hover{background:#edf5fd}
+.catalog-search button svg{position:static;width:16px;height:16px}
+.catalog-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.catalog-grid>article{background:#fff;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.catalog-grid>article:hover{transform:translateY(-4px);border-color:#bfd6eb;box-shadow:0 14px 30px #082d5414}
+.catalog-empty{display:grid;justify-items:center;padding:60px 24px;border:1px dashed #c8d8e8;border-radius:8px;background:#f7fafe;text-align:center}
+.catalog-empty>svg{width:34px;height:34px;color:#5d7fa3}
+.catalog-empty h2{margin:12px 0 6px;font-size:20px}
+.catalog-empty p{margin:0;color:#5c6e83;font-size:14px}
+.catalog-empty button{margin-top:18px;padding:10px 16px;border:0;border-radius:5px;background:#0869e8;color:#fff;font-weight:700;cursor:pointer}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media(max-width:1050px){.products-catalog{grid-template-columns:200px minmax(0,1fr)}.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.products-catalog{grid-template-columns:1fr}.catalog-sidebar,.catalog-main{min-width:0}}

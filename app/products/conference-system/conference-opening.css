@@ -62,3 +62,40 @@
 }
 @media(max-width:480px){.cs-hero-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 10px}.cs-hero-actions .cs-button{width:100%;font-size:10px;padding-inline:8px;gap:5px}.cs-hero-actions .cs-button svg{width:12px}.cs-hero-actions .cs-video-link{grid-column:1/-1;justify-self:start}}
 @media(max-width:380px){.cs-page{--cs-gutter:16px}.cs-hero-copy h1{font-size:30px}.cs-hero-actions{grid-template-columns:1fr}.cs-hero-actions .cs-button{width:100%;font-size:12px;justify-content:space-between}.cs-hero-actions{gap:10px}.cs-video-link{margin-top:3px}.cs-series-copy{padding-inline:18px}.cs-proof span{font-size:11px}.cs-proof .cs-container>div{gap:8px}.cs-series-copy h3{font-size:21px}}
+
+/* Global reach: a focused map and three clearly identified offices. */
+.cs-global{background:radial-gradient(ellipse at 55% 45%,#174673 0%,#102f51 46%,#0b2440 100%)}
+.cs-global-grid{grid-template-columns:minmax(0,33%) minmax(0,42%) minmax(215px,25%);min-height:360px;gap:0}
+.cs-global-grid>.cs-global-copy{padding:48px 28px 48px 0}
+.cs-global-copy h2{max-width:390px}
+.cs-global-map{min-height:315px;isolation:isolate}
+.cs-global-map:after{content:"";position:absolute;inset:7% 0;border:1px solid #a8d5ff1a;border-radius:50%;pointer-events:none}
+.cs-map-glow{position:absolute;inset:17% 6%;background:radial-gradient(ellipse,#3d91e528,transparent 65%);filter:blur(14px)}
+.cs-global-map img{z-index:1;opacity:.84;padding:9px;filter:drop-shadow(0 12px 22px #031a3770)}
+.cs-map-routes{position:absolute;z-index:2;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.cs-map-routes path{fill:none;stroke-linecap:round}
+.cs-map-routes .cs-route-base{stroke:#63b7ee;stroke-width:1.5;opacity:.52}
+.cs-map-routes .cs-route-flow{stroke:#d5f4ff;stroke-width:2.2;stroke-dasharray:2 19;opacity:.95;filter:drop-shadow(0 0 4px #54beff);animation:cs-route-flow 6s linear infinite}
+.cs-global-locations{display:flex;flex-direction:column;gap:0;margin-left:26px;padding:0 0 0 23px;border-left:1px solid #8abce541}
+.cs-global-locations-heading{display:flex;justify-content:space-between;margin-bottom:11px;color:#95c6f2;font-size:10px;font-weight:700;letter-spacing:.16em}
+.cs-global-locations-heading span{color:#80a7cb;letter-spacing:.05em}
+.cs-global-location{display:flex;align-items:center;gap:12px;min-height:67px;border-bottom:1px solid #8abce52e}
+.cs-global-location>span:last-child{display:flex;flex-direction:column;gap:4px}
+.cs-global-location strong{color:#fff;font-size:14px;font-weight:650}
+.cs-global-location small{color:#b8d0e7;font-size:12px}
+.cs-global-locations-foot{display:flex;align-items:center;gap:8px;margin-top:18px;color:#a9c9e8;font-size:11px}
+.cs-global-locations-foot svg{width:16px;height:16px;color:#68b7ff}
+.cs-flag{width:29px;height:29px;flex:none;box-shadow:0 0 0 2px #ffffff24}
+.cs-flag-uae{background:linear-gradient(90deg,#ed1c24 0 28%,transparent 28%),linear-gradient(#00732f 0 33.3%,#fff 33.3% 66.7%,#000 66.7%)}
+@media(max-width:1199px){.cs-global-grid{grid-template-columns:minmax(0,40%) minmax(0,60%)}.cs-global-map{grid-column:2;grid-row:1}.cs-global-locations{grid-column:1/-1;grid-row:2;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 22px;margin:0 0 28px;padding:15px 0 0;border-left:0;border-top:1px solid #8abce541}.cs-global-locations-heading,.cs-global-locations-foot{grid-column:1/-1}.cs-global-locations-foot{margin-top:15px}.cs-global-location{min-height:63px}}
+@media(max-width:700px){.cs-global-grid{grid-template-columns:1fr}.cs-global-grid>.cs-global-copy{padding:38px 0 14px}.cs-global-map{grid-column:1;grid-row:2;min-height:250px}.cs-global-locations{grid-row:3;grid-template-columns:1fr;gap:0;padding-top:18px}.cs-global-locations-heading{margin-bottom:5px}.cs-global-location{min-height:64px}.cs-global-locations-foot{margin:16px 0 24px}}
+@media(max-width:480px){.cs-global-map{min-height:215px}.cs-global-location strong{font-size:13px}}
+
+.cs-map-routes .cs-map-ring{fill:#1d8de4;stroke:#c9f1ff;stroke-width:1.5;filter:drop-shadow(0 0 6px #49baff)}
+.cs-map-routes .cs-map-core{fill:#fff;stroke:#0b69bd;stroke-width:2;filter:drop-shadow(0 0 5px #d8f7ff)}
+.cs-map-routes .cs-map-pulse{fill:none;stroke:#71caff;stroke-width:2;opacity:0;transform-box:fill-box;transform-origin:center;animation:cs-point-pulse 3.6s ease-out infinite}
+.cs-map-point-dubai .cs-map-pulse{animation-delay:1.2s}
+.cs-map-point-singapore .cs-map-pulse{animation-delay:2.4s}
+@keyframes cs-route-flow{to{stroke-dashoffset:-84}}
+@keyframes cs-point-pulse{0%{opacity:.72;transform:scale(.35)}72%,100%{opacity:0;transform:scale(1.35)}}
+@media(prefers-reduced-motion:reduce){.cs-map-routes .cs-route-flow,.cs-map-routes .cs-map-pulse{animation:none}.cs-map-routes .cs-map-pulse{opacity:.2;transform:none}}

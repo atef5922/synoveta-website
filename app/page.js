@@ -13,7 +13,7 @@ const sectors=[{name:"Corporate",copy:"Smart meeting and office solutions",icon:
 const reasons=[{name:"International Quality Standards",icon:ShieldCheck},{name:"Global Partner Network",icon:Users},{name:"Flexible OEM/ODM & Assembly",icon:Handshake},{name:"Timely Delivery Worldwide",icon:Globe2},{name:"Dedicated Support & After Sales",icon:Headphones}];
 const globalPartners=[{file:"novastar.png",name:"Novastar"},{file:"Colorlight-logo.webp",name:"Colorlight"},{file:"Bosch.png",name:"Bosch"},{file:"Samsung-logo.png",name:"Samsung"}];
 
-export default function Home(){return <div className="home-landing"><Header/><main>
+export default function Home(){return <div className="home-landing"><Header activePage="home"/><main>
   <HomeVideoHero/>
   <HomeCompanyOverview/>
   <section id="products" className="section"><div className="container"><div className="section-heading"><p>Explore our range</p><h2>Our Core Product Categories</h2><span/></div><div className="product-grid">{categories.map((item)=><article className="product-card" key={item.slug}><div className="product-image"><Image src={item.image} alt={item.title} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 33vw, 20vw"/></div><div className="product-info"><h3>{item.title}</h3><p>{item.description}</p><Link href={`/products/${item.slug}`}>View products <ArrowRight/></Link></div></article>)}</div></div></section>

@@ -38,7 +38,7 @@ export default function HomeVideoHero() {
   }, []);
 
   return <section ref={sectionRef} className="home-cinema" aria-labelledby="home-hero-title">
-    <video ref={videoRef} className="home-cinema-video" muted loop playsInline preload="none" poster="/Home page/hero/home-hero-poster.jpg" aria-hidden="true">
+    <video ref={videoRef} className="home-cinema-video" muted loop playsInline preload="metadata" poster="/Home page/hero/home-hero-poster.jpg" aria-hidden="true">
       <source src="/Home page/hero/home page video.mp4" type="video/mp4"/>
     </video>
     <div className="home-cinema-shade"/>
