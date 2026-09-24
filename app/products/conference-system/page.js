@@ -1,65 +1,69 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, AudioLines, BadgeCheck, Gem, Camera, Check, ChevronRight, CirclePlay, Cpu, Globe2, Mic2, Monitor, Network, Radio, Settings2, ShieldCheck, Signal, Users, Wifi } from "lucide-react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import ConferenceMeetingShowcase from "../../components/ConferenceMeetingShowcase";
+import "./conference-landing.css";
+import "./conference-opening.css";
+import { ConferenceVideo, ConferenceProductRail } from "./ConferenceControls";
 
-const conferenceTypes = [
-  {
-    slug: "digital-wired-conference",
-    name: "Digital Wired Conference",
-    description: "Reliable, professional wired discussion systems for boardrooms, council chambers and formal meeting spaces.",
-    image: "/Confeernce system/digital-wired- conference-system/digital-wired- conference-system.webp",
-  },
-  {
-    slug: "wifi-wireless-conference",
-    name: "WIFI Wireless Conference",
-    description: "Flexible wireless discussion systems for modern meeting rooms, fast deployment and a clean table setup.",
-    image: "/Confeernce system/wifi-wireless-conference-system/wifi-wireless-conference-system.webp",
-  },
+const base = "/Confeernce system";
+const wired = `${base}/digital-wired- conference-system`;
+const wireless = `${base}/wifi-wireless-conference-system`;
+const series = [
+  { title: "Digital Wired Conference", description: "Reliable, professional wired discussion systems for boardrooms, council chambers and formal meeting spaces.", image: `${wired}/digital-wired- conference-system.webp`, scene: `${base}/landing/wired-v3.webp`, href: "/products/conference-system/digital-wired-conference/", button: "View Wired Systems", points: ["Stable and reliable installation", "Ideal for permanent meeting rooms", "Supports advanced discussion control", "Camera tracking compatible"] },
+  { title: "WiFi Wireless Conference", description: "Flexible wireless discussion systems for modern meeting rooms, fast deployment and a clean table setup.", image: `${wireless}/wifi-wireless-conference-system.webp`, scene: `${base}/landing/wireless-v3.webp`, href: "/products/conference-system/wifi-wireless-conference/", button: "View Wireless Systems", points: ["Fast and flexible deployment", "Cleaner table setup with less cabling", "Ideal for modern and multi-purpose rooms", "Easy reconfiguration and expansion"] },
+];
+const capabilities = [
+  [Mic2, "Crystal Clear Discussion Audio", "High speech intelligibility for productive meetings."],
+  [Settings2, "Centralized Meeting Control", "Efficient management of discussion flow."],
+  [Camera, "Camera Auto-Tracking", "Integration with compatible PTZ cameras."],
+  [Network, "AV Integration", "Works with audio, displays and control systems."],
+  [Wifi, "Wired & Wireless Flexibility", "Choose the right solution for your environment."],
+  [Signal, "Scalable Deployment", "From meeting rooms to larger conference halls."],
+];
+const products = [
+  ["SV-DWC-C200S", "Digital conference controller for professional wired systems.", `${wired}/Digital-Conference-System-Controller-SV-DWC-C200S.webp`, "digital-wired-conference/sv-dwc-c200s"],
+  ["SV-DWC-C800S", "Wireless conference controller for flexible discussion environments.", `${wireless}/Conference-System-Controller-SV-DWC-C800S.webp`, "wifi-wireless-conference/sv-dwc-c800s"],
+  ["SV-DWC-M230C", "Chairman unit with priority control and elegant design.", `${wired}/Chairman-Unit-SV-DWC-M230C.webp`, "digital-wired-conference/sv-dwc-m230c"],
+  ["SV-DWC-M230D", "Delegate unit with clear speech pickup and intuitive operation.", `${wired}/Chairman-Unit-SV-DWC-M230D.webp`, "digital-wired-conference/sv-dwc-m230d"],
+  ["SV-WWC-M809D", "Wireless delegate unit for flexible conference spaces.", `${wireless}/Wireless-Chairman-Unit-SV-WWC-M809D.webp`, "wifi-wireless-conference/sv-wwc-m809d"],
+];
+products.push(["SV-WWC-M810C", "Wireless chairman unit with a large touch display.", `${wireless}/Wireless-Chairman-Unit-SV-WWC-M810C.webp`, "wifi-wireless-conference/sv-wwc-m810c"], ["SV-DWC-M805D", "Digital delegate unit for professional discussion systems.", `${wired}/SV-DWC-M805D.webp`, "digital-wired-conference/sv-dwc-m805d"]);
+const applications = [
+  ["Corporate Boardrooms", `${base}/conference-system-setup-for-meeting-room.webp`],
+  ["Government Meeting Rooms", `${base}/landing/government.webp`],
+  ["Council Chambers", `${base}/landing/council.webp`],
+  ["Educational Institutions", `${base}/landing/education.webp`],
+  ["Training Centres", `${base}/landing/training.webp`],
+  ["Conference Halls", `${base}/landing/hall.webp`],
+  ["Control & Command Rooms", "/LED-Display/industry-control-room.webp"],
+  ["International Projects", `${base}/landing/international.webp`],
+];
+const faqs = [
+  ["What types of conference systems does Synoveta offer?", "Synoveta offers digital wired and WiFi wireless discussion systems for professional meeting environments."],
+  ["What is the difference between wired and wireless conference systems?", "Wired systems suit permanent installations; wireless systems offer flexible layouts and faster deployment with less cabling."],
+  ["How do I choose between a wired and wireless system?", "Consider room layout, participant count, installation conditions and how often seating will change."],
+  ["Can systems be configured for different project sizes?", "Yes. Configurations can be tailored to room capacity, required functions, integration needs and project scope."],
+  ["Can Synoveta conference systems support camera tracking?", "Selected configurations can integrate with compatible PTZ cameras for speaker tracking."],
+  ["Can conference systems integrate with professional AV systems?", "Compatible systems can connect with displays, audio equipment, PTZ cameras and central control solutions."],
+  ["Are these systems suitable for international projects?", "Yes. Solutions can be configured for project and regional requirements with support from our partner network."],
+  ["How can I select the right solution for my project?", "Share the room size, participant count, preferred architecture and required AV functions to discuss a configuration."],
 ];
 
-const conferenceFaqs = [
-  ["What types of conference systems does Synoveta offer?", "Synoveta offers professional digital wired and wireless conference system solutions for boardrooms, council chambers, government facilities, corporate meeting spaces, training centres and other professional communication environments."],
-  ["What is the difference between Synoveta wired and wireless conference systems?", "Synoveta wired systems are designed for permanent installations where stable connectivity and structured system architecture are priorities. Wireless systems provide greater deployment flexibility, reduced cabling and easier reconfiguration for modern meeting environments."],
-  ["How do I choose between a wired and wireless conference system?", "The right system depends on room layout, participant capacity, installation conditions, required functionality and future expansion plans. Wired systems are commonly preferred for fixed infrastructure, while wireless systems are ideal where flexible seating and faster deployment are important."],
-  ["Can Synoveta conference systems be configured for different project sizes?", "Yes. Conference system architecture can be configured according to participant numbers, room size, required functions and project scope, from executive boardrooms to larger professional meeting environments."],
-  ["Can Synoveta conference systems support camera tracking?", "Selected system configurations can be integrated with compatible PTZ cameras to provide automatic speaker tracking and improved visual coverage during meetings and hybrid conference applications."],
-  ["Can Synoveta conference systems integrate with professional AV systems?", "Yes. Conference solutions can be integrated with compatible audio systems, displays, PTZ cameras, video conferencing platforms, recording systems and central control solutions to create a complete meeting-room environment."],
-  ["Are Synoveta conference systems suitable for international projects?", "Yes. Synoveta conference solutions are designed for professional deployments across different markets and can be configured according to project requirements, installation environments and regional system needs."],
-  ["How can I select the right Synoveta conference solution for a project?", "Share the room capacity, participant count, preferred wired or wireless architecture, required functions and AV integration needs. A suitable Synoveta system configuration can then be developed around the project."],
-];
-export const metadata = {
-  title: "Conference System Series | Synoveta",
-  description: "Explore Synoveta digital wired and WIFI wireless conference system solutions.",
-};
+export const metadata = { title: "Professional Conference Systems | Synoveta", description: "Explore Synoveta digital wired and WiFi wireless conference systems for clear, reliable meeting communication." };
+function Heading({ eyebrow, title, description }) { return <div className="cs-heading"><span className="cs-eyebrow">{eyebrow}</span><h2>{title}</h2>{description && <p>{description}</p>}</div>; }
 
-export default function ConferenceCatalogPage() {
-  return <><Header activePage="products"/><main className="conference-catalog-page">
-    <section className="conference-catalog-hero">
-      <Image src="/Confeernce system/Conference-System-banner.webp" alt="Synoveta professional wired and wireless conference systems" fill priority sizes="100vw"/>
-      <div className="conference-catalog-hero-content"><div className="conference-catalog-hero-copy">
-        <p><span/> Synoveta Conference System</p>
-        <h1>Professional<br/>Conference Systems</h1>
-        <div className="conference-catalog-hero-lead">Advanced wired and wireless solutions for clear,<br/> reliable and efficient communication.</div>
-        <div className="conference-catalog-hero-actions">
-          <Link href="/products/conference-system/digital-wired-conference/">Explore Wired Systems <ArrowRight/></Link>
-          <Link href="/products/conference-system/wifi-wireless-conference/">Explore Wireless Systems <ArrowRight/></Link>
-        </div>
-      </div></div>
-    </section>
-    <section className="conference-catalog-ranges"><div className="container">
-      <div className="turnstile-heading"><p className="eyebrow">Synoveta conference system</p><h1>Choose Your Conference System</h1><p className="lead">Select a digital wired or Wi-Fi wireless conference system to match your meeting space and installation requirements.</p></div>
-      <div className="turnstile-range-grid conference-type-grid">{conferenceTypes.map((type, index)=><Link className="conference-type-card" href={`/products/conference-system/${type.slug}/`} key={type.slug} aria-label={`View ${type.name}`}><article>
-        <div className="turnstile-range-image conference-type-image"><Image src={type.image} alt={`${type.name} system`} fill priority={index === 0} sizes="(max-width: 760px) 100vw, 50vw"/></div>
-        <div><h2>{type.name}</h2><p>{type.description}</p><span className="conference-card-action">View system <ArrowRight/></span></div>
-      </article></Link>)}</div>
-    </div></section>
-    <ConferenceMeetingShowcase/>
-    <section className="conference-faq-section"><div className="container conference-faq-layout">
-      <div className="conference-faq-heading"><p className="eyebrow">Conference system support</p><h2>Frequently Asked Questions</h2><p>Find quick answers about selecting, configuring and integrating Synoveta conference systems.</p></div>
-      <div className="conference-faq-list">{conferenceFaqs.map(([question, answer], index) => <details className="conference-faq-item" key={question} open={index === 0}><summary><span>{question}</span><span className="conference-faq-icon" aria-hidden="true"/></summary><div className="conference-faq-answer"><p>{answer}</p></div></details>)}</div>
-    </div></section>
-  </main><Footer/></>;
-}
+export default function ConferenceCatalogPage() { return <><Header activePage="products"/><main className="cs-page">
+  <section className="cs-hero" aria-labelledby="cs-hero-title"><Image src={`${base}/landing/hero-v3.webp`} alt="Synoveta conference microphones and controller" fill priority sizes="100vw"/><div className="cs-container cs-hero-inner"><div className="cs-hero-copy"><span className="cs-eyebrow">Synoveta Conference System</span><h1 id="cs-hero-title">Professional<br/>Conference Systems<br/><em>for a Connected World</em></h1><p>Advanced wired and wireless discussion systems designed for clear communication, elegant meeting environments and reliable performance across global projects.</p><div className="cs-hero-actions"><Link className="cs-button cs-button-primary" href={series[0].href}>Explore Wired Systems <ArrowRight/></Link><Link className="cs-button cs-button-outline" href={series[1].href}>Explore Wireless Systems <ArrowRight/></Link><ConferenceVideo/></div></div></div></section>
+  <div className="cs-proof"><div className="cs-container">{[[Gem,"European-Level","Product Design"],[Radio,"Wired & Wireless","Solutions"],[Camera,"Camera Tracking","Support"],[Monitor,"AV Integration","Ready"]].map(([Icon,a,b])=><div key={a}><Icon/><span>{a}<br/>{b}</span></div>)}</div></div>
+  <section className="cs-series cs-section" id="conference-series"><div className="cs-container"><Heading eyebrow="Find your ideal solution" title="Choose Your Conference System" description="Select a digital wired or WiFi wireless conference system to match your meeting space and installation requirements."/><div className="cs-series-grid">{series.map(item=><article className="cs-series-card" key={item.title}><Image className="cs-series-scene" src={item.scene} alt="" fill sizes="(max-width: 760px) 100vw, 50vw"/><div className="cs-series-gradient"/><div className="cs-series-copy"><h3>{item.title}</h3><p>{item.description}</p><ul>{item.points.map(point=><li key={point}><Check/>{point}</li>)}</ul><Link href={item.href} className="cs-pill">{item.button}<ArrowRight/></Link></div></article>)}</div></div></section>
+  <section className="cs-capabilities cs-section"><div className="cs-container"><Heading eyebrow="Key features" title="Advanced Capabilities for Modern Conference Environments" description="Synoveta conference systems are designed to support clear communication, efficient control and professional integration."/><div className="cs-capability-grid">{capabilities.map(([Icon,title,description])=><article key={title}><Icon/><h3>{title}</h3><p>{description}</p></article>)}</div></div></section>
+  <section className="cs-meeting" id="meeting-rooms"><div className="cs-meeting-photo"><Image src={`${base}/conference-system-setup-for-meeting-room.webp`} alt="Conference system installed in a professional meeting room" fill sizes="(max-width: 760px) 100vw, 50vw"/></div><div className="cs-meeting-copy"><span className="cs-eyebrow">Smart meeting environments</span><h2>Professional Conference Setup<br/>for Modern Meeting Rooms</h2><p>Synoveta conference systems deliver clear communication, reliable control and seamless integration for boardrooms, meeting spaces and professional discussion environments.</p><div className="cs-meeting-benefits">{[[Mic2,"Clear Communication","High speech intelligibility"],[Settings2,"Centralized Control","Efficient meeting management"],[Monitor,"Seamless Integration","Compatible AV systems"]].map(([Icon,title,description])=><div key={title}><Icon/><span><strong>{title}</strong><small>{description}</small></span></div>)}</div></div></section>
+  <section className="cs-smart cs-section"><div className="cs-container cs-smart-grid"><div className="cs-smart-copy"><span className="cs-eyebrow">Intelligent meeting solutions</span><h2>Smarter Meetings with Camera Tracking and AV Integration</h2><p>Selected system configurations support compatible PTZ cameras for active speaker tracking, along with connectivity to professional audio, display and control environments.</p><ul>{["Active speaker camera tracking", "PTZ camera compatibility", "Audio and display system integration", "Professional meeting room workflow support"].map(point=><li key={point}><Check/>{point}</li>)}</ul><Link className="cs-pill" href="/contact/">Learn More <ArrowRight/></Link></div><div className="cs-smart-visual"><Image src={`${base}/landing/integration.webp`} alt="Illustrative camera tracking and AV integration with conference devices" fill sizes="(max-width: 760px) 100vw, 55vw"/><div className="cs-smart-visual-labels"><span><Camera/>Camera Tracking</span><span><Network/>AV Integration</span><span><Radio/>Live Streaming</span></div></div></div></section>
+  <section className="cs-products cs-section"><div className="cs-container"><div className="cs-section-row"><Heading eyebrow="Featured products" title="Explore Synoveta’s Conference System Range" description="A selection of our most popular conference system products."/><Link href={series[0].href}>View All Products <ArrowRight/></Link></div><ConferenceProductRail>{products.map(([model,description,image,slug])=><Link className="cs-product-card" key={model} href={`/products/conference-system/${slug}/`}><div className="cs-product-image"><Image src={image} alt={`${model} conference device`} fill sizes="(max-width: 600px) 50vw, 20vw"/></div><strong>{model}</strong><p>{description}</p><span>View Details <ArrowRight/></span></Link>)}</ConferenceProductRail></div></section>
+  <section className="cs-applications cs-section"><div className="cs-container"><Heading eyebrow="Wide range of applications" title="Designed for Professional Communication Environments" description="Synoveta conference systems are suitable for a wide range of meeting spaces and industries."/><div className="cs-application-grid">{applications.map(([title,image])=><article key={title}><div><Image src={image} alt={title} fill sizes="(max-width: 600px) 50vw, 13vw"/></div><h3>{title}</h3></article>)}</div></div></section>
+  <section className="cs-global"><div className="cs-container cs-global-grid"><div><span className="cs-eyebrow">Global reach</span><h2>A Trusted Partner for International Conference Projects</h2><p>Synoveta delivers professional conference solutions with an international business presence, project-oriented support and reliable technology integration.</p><Link className="cs-pill" href="/partners/">Our Global Presence <ArrowRight/></Link></div><div className="cs-global-map"><Image src={`${base}/landing/world-map.svg`} alt="Synoveta international presence" fill sizes="(max-width: 760px) 100vw, 40vw"/></div><div className="cs-global-locations"><p><span className="cs-flag cs-flag-italy"/><strong>Italy Head Office</strong><small>Milan, Italy</small></p><p><span className="cs-flag cs-flag-singapore"/><strong>Singapore Office</strong><small>Singapore</small></p><ul><li><Globe2/>Global Partnership</li><li><Users/>International Supply</li><li><ShieldCheck/>Technical Support</li><li><Cpu/>Project Consultation</li></ul></div></div></section>
+  <section className="cs-faq cs-section"><div className="cs-container"><div className="cs-section-row"><Heading eyebrow="FAQ" title="Frequently Asked Questions" description="Find quick answers about selecting, configuring and integrating Synoveta conference systems."/><Link href="/contact/">Ask a Question <ArrowRight/></Link></div><div className="cs-faq-grid">{[faqs.slice(0,4),faqs.slice(4)].map((column,i)=><div key={i}>{column.map(([question,answer])=><details key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div>)}</div></div></section>
+  <section className="cs-cta"><div className="cs-container"><div><h2>Need Help Choosing the Right Conference System?</h2><p>Discuss your project with our team to find the best wired or wireless solution for your meeting environment.</p></div><div><Link href="/contact/" className="cs-button cs-button-light">Request a Quote <ArrowRight/></Link><Link href="/contact/" className="cs-button cs-button-transparent">Contact Our Team <ChevronRight/></Link></div></div></section>
+  </main><Footer/></>; }
