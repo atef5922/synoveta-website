@@ -1,13 +1,13 @@
 export const boonedamRanges = {
   "tripod-turnstiles": {
     title: "Tripod Turnstiles",
-    copy: "Compact Boon Edam tripod turnstiles for reliable pedestrian access control and efficient visitor flow.",
+    copy: "Compact Synoveta tripod turnstiles for reliable pedestrian access control and efficient visitor flow.",
     products: [
       {
         slug: "trilock-60",
         name: "Trilock 60",
         image: "/product-assets/turnstile-gate/Boon Edam/Tripod-turnstiles/Trilock 60.webp",
-        summary: "A compact Boon Edam tripod turnstile for reliable access control and efficient pedestrian flow.",
+        summary: "A compact Synoveta tripod turnstile for reliable access control and efficient pedestrian flow.",
       },
       {
         slug: "trilock-75",
@@ -19,13 +19,13 @@ export const boonedamRanges = {
         slug: "trilock-900",
         name: "Trilock 900",
         image: "/product-assets/turnstile-gate/Boon Edam/Tripod-turnstiles/Trilock 900.webp",
-        summary: "A robust Boon Edam tripod turnstile solution for dependable access management in demanding locations.",
+        summary: "A robust Synoveta tripod turnstile solution for dependable access management in demanding locations.",
       },
     ],
   },
   "full-height-turnstiles": {
     title: "Full-Height Turnstiles",
-    copy: "Secure Boon Edam full-height turnstiles for perimeter protection, restricted sites and demanding environments.",
+    copy: "Secure Synoveta full-height turnstiles for perimeter protection, restricted sites and demanding environments.",
     products: [
       {
         slug: "turnlock-100",
@@ -37,7 +37,7 @@ export const boonedamRanges = {
         slug: "turnlock-150",
         name: "Turnlock 150",
         image: "/product-assets/turnstile-gate/Boon Edam/full-height-turnstiles/Turnlock 150.webp",
-        summary: "A durable Boon Edam full-height entrance solution engineered for dependable high-security access control.",
+        summary: "A durable Synoveta full-height entrance solution engineered for dependable high-security access control.",
       },
       {
         slug: "turnlock-200",

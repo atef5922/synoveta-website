@@ -1,12 +1,4 @@
 export const categoryBrands = {
-  "access-control-turnstile": [{
-    name: "Gunnebo",
-    subcategories: ["Tripod Turnstiles", "Full-Height Turnstiles"],
-  }, {
-    name: "Boon Edam",
-    slug: "boonedam",
-    subcategories: ["Tripod Turnstiles", "Full-Height Turnstiles"],
-  }],
   "conference-system": ["Digital Wired Conference", "WIFI Wireless Conference"],
   "led-display-solution": ["SVL Series", "SVLC Series"],
 };
