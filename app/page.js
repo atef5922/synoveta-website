@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import { HomeCompanyOverview, HomeGlobalPresence } from "./components/HomeCompanySections";
 import "./home-company.css";
 import HomeVideoHero from "./components/HomeVideoHero";
+import HomeCardAnimations from "./components/HomeCardAnimations";
 import "./home-hero.css";
 import { categories } from "./data";
 
@@ -19,12 +20,12 @@ const featuredProjects=[
   {name:"Siemens",logo:"siemens.svg",environment:"Industrial & Control Centres",solution:"LED Display · System Integration",image:"/Home page/projects/control-centre-project.webp",href:"/solutions/"},
   {name:"Cisco",logo:"cisco.svg",environment:"Corporate & Meeting Spaces",solution:"Conference System · AV Integration",image:"/Home page/projects/boardroom-project.webp",href:"/products/conference-system/"},
 ];
-export default function Home(){return <div className="home-landing"><Header activePage="home"/><main>
+export default function Home(){return <div className="home-landing"><HomeCardAnimations/><Header activePage="home"/><main>
   <HomeVideoHero/>
   <HomeCompanyOverview/>
-  <section id="products" className="section"><div className="container"><div className="section-heading"><p>Explore our range</p><h2>Our Core Product Categories</h2><span/></div><div className="product-grid">{categories.map((item)=><article className="product-card" key={item.slug}><div className="product-image"><Image src={item.image} alt={item.title} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 33vw, 20vw"/></div><div className="product-info"><h3>{item.title}</h3><p>{item.description}</p><Link href={`/products/${item.slug}`}>View products <ArrowRight/></Link></div></article>)}</div></div></section>
-  <section id="solutions" className="section sectors"><div className="container"><div className="section-heading"><p>Designed for real-world needs</p><h2>Intelligent Solutions For Every Sector</h2><span/></div><div className="sector-grid">{sectors.map(({name,copy,icon:Icon})=><article key={name}><Icon/><h3>{name}</h3><p>{copy}</p></article>)}</div></div></section>
-  <section className="reasons"><div className="container"><div className="section-heading light"><h2>Why Partners Choose Synoveta</h2><span/></div><div className="reason-grid">{reasons.map(({name,icon:Icon})=><div key={name}><Icon/><b>{name}</b></div>)}</div></div></section>
+  <section id="products" className="section"><div className="container"><div className="section-heading"><p>Explore our range</p><h2>Our Core Product Categories</h2><span/></div><div className="product-grid">{categories.map((item)=><article className="product-card" data-card-reveal key={item.slug}><div className="product-image"><Image src={item.image} alt={item.title} fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 33vw, 20vw"/></div><div className="product-info"><h3>{item.title}</h3><p>{item.description}</p><Link href={`/products/${item.slug}`}>View products <ArrowRight/></Link></div></article>)}</div></div></section>
+  <section id="solutions" className="section sectors"><div className="container"><div className="section-heading"><p>Designed for real-world needs</p><h2>Intelligent Solutions For Every Sector</h2><span/></div><div className="sector-grid">{sectors.map(({name,copy,icon:Icon})=><article data-card-reveal key={name}><Icon/><h3>{name}</h3><p>{copy}</p></article>)}</div></div></section>
+  <section className="reasons"><div className="container"><div className="section-heading light"><h2>Why Partners Choose Synoveta</h2><span/></div><div className="reason-grid">{reasons.map(({name,icon:Icon})=><div data-card-reveal key={name}><Icon/><b>{name}</b></div>)}</div></div></section>
   <HomeGlobalPresence/>
   <section id="selected-projects" className="home-organizations" aria-labelledby="home-organizations-title">
     <div className="container">
@@ -34,7 +35,7 @@ export default function Home(){return <div className="home-landing"><Header acti
         <span/>
       </div>
       <div className="home-organizations-grid">
-        {featuredProjects.map(({name,environment,solution,image,href})=><article key={name}>
+        {featuredProjects.map(({name,environment,solution,image,href})=><article data-card-reveal key={name}>
           <Image className="home-project-image" src={image} alt={`${environment} powered by professional technology`} fill sizes="(max-width: 680px) 100vw, (max-width: 1040px) 50vw, 33vw"/>
           <div className="home-project-shade"/>
           <div className="home-project-content">

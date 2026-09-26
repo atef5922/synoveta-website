@@ -85,3 +85,14 @@
 @media(max-width:1040px){.home-organizations-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-organizations-grid article{min-height:340px}}
 @media(max-width:680px){.home-organizations{padding:48px 0 52px}.home-organizations-heading{margin-bottom:26px}.home-organizations-grid{grid-template-columns:1fr;gap:14px}.home-organizations-grid article{min-height:340px}.home-project-content{padding:22px}}
 @media(max-width:380px){.home-organizations-grid article{min-height:315px}.home-project-content h3{font-size:21px}.home-project-footer{padding-top:13px}}
+
+/* Homepage card entrance animation. JS enables the hidden state only after hydration. */
+.home-card-motion-ready [data-card-reveal]:not(.is-revealed){opacity:0;transform:translateY(26px) scale(.985)}
+.home-card-motion-ready [data-card-reveal].is-revealed{animation:home-card-reveal .62s cubic-bezier(.22,1,.36,1) backwards}
+.home-card-motion-ready :is(.home-company-stats,.home-company-services,.product-grid,.sector-grid,.reason-grid,.home-world-locations,.home-organizations-grid)>[data-card-reveal]:nth-child(2){animation-delay:80ms}
+.home-card-motion-ready :is(.home-company-stats,.home-company-services,.product-grid,.sector-grid,.reason-grid,.home-world-locations,.home-organizations-grid)>[data-card-reveal]:nth-child(3){animation-delay:160ms}
+.home-card-motion-ready :is(.home-company-stats,.home-company-services,.product-grid,.sector-grid,.reason-grid,.home-world-locations,.home-organizations-grid)>[data-card-reveal]:nth-child(4){animation-delay:240ms}
+.home-card-motion-ready :is(.home-company-stats,.home-company-services,.product-grid,.sector-grid,.reason-grid,.home-world-locations,.home-organizations-grid)>[data-card-reveal]:nth-child(5){animation-delay:320ms}
+.home-card-motion-ready :is(.home-company-stats,.home-company-services,.product-grid,.sector-grid,.reason-grid,.home-world-locations,.home-organizations-grid)>[data-card-reveal]:nth-child(6){animation-delay:400ms}
+@keyframes home-card-reveal{from{opacity:0;transform:translateY(26px) scale(.985)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.home-card-motion-ready [data-card-reveal]:not(.is-revealed){opacity:1;transform:none}.home-card-motion-ready [data-card-reveal].is-revealed{animation:none}}

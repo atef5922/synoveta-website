@@ -5,3 +5,6 @@ out
 .env*
 !.env.example
 npm-debug.log*
+
+# Local visual QA and browser debug artifacts
+.dbg/
